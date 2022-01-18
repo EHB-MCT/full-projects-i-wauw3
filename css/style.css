@@ -1,1 +1,12 @@
+@import url("https://use.typekit.net/bjj0qdx.css");
 
+body {
+
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arrow-down img {
+    width: 20px;
+}
