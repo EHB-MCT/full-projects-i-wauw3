@@ -27,11 +27,13 @@ body {
     justify-content: center;
     top: 0;
     right: 20px;
+    position: absolute;
 }
 
 .navigation ul li {
     margin-left: 50px;
     list-style: none;
+    float: right;
 }
 
 .navigation li a {
