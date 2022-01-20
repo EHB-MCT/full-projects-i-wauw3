@@ -8,12 +8,20 @@
     <title>Course-Project</title>
     <link rel="Stylesheet" href="style.css">
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 
     <div class="header">
-        <img src="images/WAUW_Logo.png" alt="" class="logo">
+        <img src="images/Logo_Yellow-Blue.png" alt="">
         <div class="navigation">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -24,13 +32,67 @@
         </div>
     </div>
 
-    <div class="wrapper">
-        <div class="about-waw">
-            <h1>WAUW</h1>
+    <div class="main">
+        <h1>WAUW</h1>
+    </div>
+    <div data-aos="fade-right">
+
+        <div class="wrapper">
+            <div class="content">
+                <h2>Deelnemen aan onze Workshops ?</h2>
+                <h1>Wees <span class="crea">crea</span><span class="tief">tief !</span></h1>
+                <p> Veel kinderen en Volwassenen gebruiken <br>dagelijks hun creativiteit zonder het zelf te beseffen.
+                    </br>Dankzij
+                    onze 2 geexperimenteerde architecten <br>krijgt onze jeugd de kans om hun creativiteit</br> een bron
+                    van
+                    inspiratie
+                    te maken. </p>
+                <div class="button">
+                    <a href="#">Naar onze Workshops</a>
+                </div>
+            </div>
+
+            <div class="image-s">
+                <img src="Images/Image1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-up">
+
+        <div class="partners">
+            <div class="overheid">
+                <h2>Overheid</h2>
+                <img src="images/bruxelles.jpg" alt="">
+                <img src="images/fb-share-ogimage.jpg" alt="">
+                <img src="images/BE_logo_350px_fb.jpg" alt="">
+
+            </div>
+
+            <div class="cultureel">
+                <h2>Festival</h2>
+                <img src="images/vijverfestival.png" alt="">
+                <img src="Images/Logo-PeriFeria-Gr-1400.png" alt="">
+                <img src="Images/téléchargement.png" alt="">
+            </div>
+
+            <div class="bedrijven">
+                <h2>Bedrijven</h2>
+                <img src="images/brussels-airport-logo-vector.png" alt="">
+                <img src="images/logo_UGent_NL_RGB_2400_kleur_witbg.png" alt="">
+                <img src="images/téléchargement (1).png" alt="">
+            </div>
         </div>
 
-    </div>
 
+    </div>
+    <footer>
+        <div class="footer-info">
+            <div class="contact">
+                <h6>Vragen ? </h6>
+                <h4>Neem contact met ons op</h4>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
