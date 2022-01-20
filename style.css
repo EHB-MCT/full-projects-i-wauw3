@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -21,16 +26,18 @@ body {
 .header {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: yellow;
+    background-color: white;
     justify-content: space-between;
     display: flex;
     align-items: center;
+
 }
 
 .header a {
+    font-family: 'Shadows Into Light', cursive;
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    color: darkblue;
+    font-size: 30px;
     margin-left: 70px;
     margin-right: 70px;
     font-weight: bold;
@@ -40,18 +47,50 @@ body {
 .main {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: red;
+    background-color: #FFBF00;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
-.main h1 {
-    margin-bottom: 0;
-    text-align: right;
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    text-align: left;
+    margin-left: 200px;
+    line-height: 30px;
+    color: white;
+    margin-right: 110px;
+}
+
+.text h1 {
+    font-size: 70px;
+}
+
+span.wauw-text {
+    font-family: 'Shadows Into Light';
+
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #00BFFF;
+    padding: 5px 30px;
+    background-color: #00BFFF;
+    font-weight: bold;
 }
 
 .slider {
-    background-color: whitesmoke;
-    width: 200px;
     margin-left: 30px;
+}
+
+.slider img {
+    object-fit: cover;
+    width: 500px;
+    border-radius: 20px;
 }
 
 .wrapper {
@@ -78,7 +117,7 @@ span.tief {
 .wrapper h2 {
     padding-top: 100px;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     margin-top: 0;
 
@@ -86,14 +125,14 @@ span.tief {
 
 .wrapper h1 {
     margin-left: 30px;
-    font-size: 50px;
+    font-size: 70px;
     color: white;
 
 }
 
 .wrapper p {
     margin-left: 30px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 
@@ -101,7 +140,7 @@ span.tief {
 .image-s img {
     object-fit: cover;
     margin-top: 50px;
-
+    width: 550px;
     border-radius: 20px;
 }
 
@@ -116,15 +155,17 @@ span.tief {
     margin-bottom: 100px;
     border: 2px solid #FFDA00;
     padding: 5px 40px;
-    background-color: #FFDA00;
+    background-color: #FFD700;
     color: white;
     transition: all 1s;
     display: inline-block;
+    font-size: 20px;
+
 }
 
 .button a:hover {
     transform: translateY(-20px);
-    background-color: white;
+    background-color: #FFD700;
 }
 
 .partners {
