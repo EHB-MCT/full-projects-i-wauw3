@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
 body {
-
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
     margin: 0;
@@ -13,45 +12,30 @@ body {
 
 
 .header img {
-    width: 15%;
+    width: 300px;
     top: 10px;
     left: 30px;
     position: relative;
 }
 
 .header {
-    margin-top: 0;
-    background-color: 'yellow';
-}
-
-.navigation {
-    margin-top: 50px;
-}
-
-.navigation ul {
-    position: relative;
-    top: 10px;
-    right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: yellow;
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
-    right: 20px;
-    position: absolute;
+    align-items: center;
 }
 
-.navigation ul li {
-    margin-left: 30px;
-    list-style: none;
-    float: right;
-}
-
-.navigation li a {
-    padding: 6px 15px;
-    top: 0;
-    right: 20px;
+.header a {
     text-decoration: none;
+    color: black;
     font-size: 25px;
-    color: black
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
 }
+
 
 .main {
     margin-left: 20px;
@@ -75,7 +59,11 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
+    justify-content: space-around;
+    text-align: left;
 }
+
+
 
 span.crea {
     color: white;
@@ -113,7 +101,7 @@ span.tief {
 .image-s img {
     object-fit: cover;
     margin-top: 50px;
-    margin-left: 100px;
+
     border-radius: 20px;
 }
 
@@ -143,7 +131,6 @@ span.tief {
     margin-left: 20px;
     margin-right: 20px;
     background-color: #edeae5;
-
 }
 
 .partners h1 {
@@ -172,7 +159,7 @@ span.tief {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
 }
 
 .overheid img,
@@ -191,6 +178,7 @@ span.tief {
     height: 250px;
     margin-top: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .contact,
