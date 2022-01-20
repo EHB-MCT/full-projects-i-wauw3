@@ -179,12 +179,34 @@ span.tief {
 
 .footer-info {
     background-color: #00BFFF;
-}
-
-.contact {
-    padding-top: 10px;
-    background-color: red;
     margin-left: 20px;
     margin-right: 20px;
+    height: 250px;
+    margin-top: 0;
+    display: flex;
+}
+
+.contact,
+.social,
+.wauw {
+    color: white;
+    padding-top: 30px;
     width: 250px;
+    margin-left: 50px;
+    margin-right: 60px;
+    line-height: 15px;
+}
+
+.social img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+.contact h6 {
+    margin-top: 0;
 }
