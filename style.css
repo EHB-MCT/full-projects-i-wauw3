@@ -47,9 +47,10 @@ body {
 .main {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: #FFBF00;
+    background-color: orange;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+
 }
 
 .main {
@@ -86,6 +87,8 @@ span.wauw-text {
     padding: 5px 30px;
     background-color: #00BFFF;
     font-weight: bold;
+    font-size: 18px;
+
 }
 
 .slider {
@@ -99,7 +102,9 @@ span.wauw-text {
 }
 
 .wrapper {
-    background-color: #00BFFF;
+    background-image: url(Images/CuttingMat.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -137,7 +142,7 @@ span.tief {
 
 .wrapper p {
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -145,7 +150,7 @@ span.tief {
 .image-s img {
     object-fit: cover;
     margin-top: 50px;
-    width: 550px;
+    width: 520px;
     border-radius: 20px;
 }
 
@@ -158,13 +163,13 @@ span.tief {
     text-decoration: none;
     margin-left: 30px;
     margin-bottom: 100px;
-    border: 2px solid #FFDA00;
+    border: 2px solid #FFBF00;
     padding: 5px 40px;
-    background-color: #FFD700;
+    background-color: #FFBF00;
     color: white;
     transition: all 1s;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -174,7 +179,7 @@ span.tief {
 }
 
 .footer-info {
-    background-color: #00BFFF;
+    background-color: whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
     height: 250px;
@@ -184,11 +189,16 @@ span.tief {
 
 }
 
+.footer-info h2 {
+    font-size: 27px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .contact,
 .social,
 .wauw,
 .samenwerking {
-    color: white;
+    color: black;
     padding-top: 30px;
     width: 250px;
     margin-left: 50px;
@@ -219,4 +229,80 @@ span.tief {
     display: flex;
     border-radius: 100px;
     padding: 5px;
+}
+
+.inschrijving {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: orange;
+}
+
+
+.inschrijving h1 {
+    margin-left: 50px;
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.inschrijving p {
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+span.lid {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.inschrijving-box {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+
+.inschrijving-box a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 1s, border 1s;
+
+}
+
+.inschrijving-box div {
+    transition: background-color 1s;
+}
+
+.inschrijving-box div:hover {
+    background-color: #00BFFF;
+    transition-timing-function: ease;
+    border: 2px solid #00BFFF;
+}
+
+.wauw-kids,
+.wauw-vol,
+.mix {
+    border: 2px solid white;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.wauw-kids img,
+.wauw-vol img,
+.mix img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
 }
