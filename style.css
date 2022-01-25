@@ -102,7 +102,7 @@ span.wauw-text {
 }
 
 .wrapper {
-    background-image: url(Images/CuttingMat.png);
+    background-image: url(Images/Artboard\ 4.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 20px;
@@ -305,4 +305,25 @@ span.lid {
     width: 100px;
     height: 100px;
     padding-bottom: 20px;
+}
+
+.left-header a {
+    transition: color .5s;
+}
+
+
+.left-header a:hover {
+    color: #00BFFF;
+    transition-timing-function: ease;
+}
+
+
+.right-header a {
+    transition: color .5s;
+}
+
+
+.right-header a:hover {
+    color: orange;
+    transition-timing-function: ease;
 }
