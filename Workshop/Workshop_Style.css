@@ -43,11 +43,10 @@ body {
     font-weight: bold;
 }
 
-
 .main {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: orange;
+    background-color: #00bfff;
     padding-top: 50px;
     padding-bottom: 60px;
 
@@ -56,6 +55,10 @@ body {
 .main {
     display: flex;
     justify-content: space-around;
+}
+
+div .legend {
+    background-color: white;
 }
 
 .text {
@@ -73,11 +76,6 @@ body {
 .text p {
     font-size: 18px;
     line-height: 25px;
-}
-
-span.wauw-text {
-    font-family: 'Shadows Into Light';
-
 }
 
 .text a {
@@ -102,84 +100,100 @@ span.wauw-text {
 }
 
 .wrapper {
-    background-image: url(Images/CuttingMat.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wrapper h1 {
+    font-size: 75px;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.think {
+    background-color: #e6e6e6;
+}
+
+.work {
+    background-color: #e6e6e6;
+}
+
+.play {
+    background-color: #e6e6e6;
+}
+
+.events {
     margin-left: 20px;
     margin-right: 20px;
-    display: flex;
-    justify-content: space-around;
+    text-align: left;
+    background-color: #e6e6e6;
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.events h1 {
+    margin-left: 0px;
+    font-size: 50px;
+    color: black;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.events h3 {
+    margin-left: 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: black;
     text-align: left;
 }
 
 
 
-span.crea {
-    color: white;
+span.lid {
     font-family: 'Shadows Into Light', cursive;
-}
-
-span.tief {
-    color: orange;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-.wrapper h2 {
-    padding-top: 100px;
-    margin-left: 30px;
-    font-size: 25px;
-    color: white;
-    margin-top: 0;
 
 }
 
-.wrapper h1 {
-    margin-left: 30px;
-    font-size: 70px;
-    color: white;
-
-}
-
-.wrapper p {
-    margin-left: 30px;
-    font-size: 18px;
-    color: white;
-}
-
-
-.image-s img {
-    object-fit: cover;
-    margin-top: 50px;
-    width: 520px;
-    border-radius: 20px;
-}
-
-.button {
-    padding-bottom: 100px;
+.events {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
     margin-top: 50px;
 }
 
-.button a {
+.events a {
     text-decoration: none;
-    margin-left: 30px;
-    margin-bottom: 100px;
-    border: 2px solid #FFBF00;
-    padding: 5px 40px;
-    background-color: #FFBF00;
+    font-family: 'Public Sans bold', sans-serif;
     color: white;
-    transition: all 1s;
-    display: inline-block;
-    font-size: 18px;
+    background-color: #ffda00;
+    padding: 5px 40px;
+    border-radius: 20px;
+    transition: background-color 1s, border 1s;
 
 }
 
-.button a:hover {
-    transform: translateY(-20px);
-    background-color: #FFD700;
+.events div {
+    transition: background-color 1s;
 }
+
+.kalender {
+    background-color: white;
+    padding: 15%;
+}
+
 
 .footer-info {
-    background-color: whitesmoke;
+    background-color: #00bfff;
     margin-left: 20px;
     margin-right: 20px;
     height: 250px;
@@ -229,80 +243,4 @@ span.tief {
     display: flex;
     border-radius: 100px;
     padding: 5px;
-}
-
-.inschrijving {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: left;
-    background-color: #ffa500;
-}
-
-
-.inschrijving h1 {
-    margin-left: 50px;
-    font-size: 50px;
-    color: white;
-    margin-top: 0px;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.inschrijving p {
-    margin-left: 50px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-
-}
-
-
-
-span.lid {
-    font-family: 'Shadows Into Light', cursive;
-
-}
-
-.inschrijving-box {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 70px;
-    margin-top: 50px;
-}
-
-.inschrijving-box a {
-    text-decoration: none;
-    color: black;
-    transition: background-color 1s, border 1s;
-
-}
-
-.inschrijving-box div {
-    transition: background-color 1s;
-}
-
-.inschrijving-box div:hover {
-    background-color: #00BFFF;
-    transition-timing-function: ease;
-    border: 2px solid #00BFFF;
-}
-
-.wauw-kids,
-.wauw-vol,
-.mix {
-    border: 2px solid white;
-    width: 250px;
-    background-color: white;
-    border-radius: 20px;
-
-}
-
-.wauw-kids img,
-.wauw-vol img,
-.mix img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    padding-bottom: 20px;
 }
