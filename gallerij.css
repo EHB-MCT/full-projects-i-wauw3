@@ -44,19 +44,6 @@ body {
 }
 
 
-.main {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: orange;
-    padding-top: 50px;
-    padding-bottom: 60px;
-
-}
-
-.main {
-    display: flex;
-    justify-content: space-around;
-}
 
 .text {
     text-align: left;
@@ -163,9 +150,9 @@ span.tief {
     text-decoration: none;
     margin-left: 30px;
     margin-bottom: 100px;
-    border: 2px solid orange;
+    border: 2px solid #FFBF00;
     padding: 5px 40px;
-    background-color: orange;
+    background-color: #FFBF00;
     color: white;
     transition: all 1s;
     display: inline-block;
@@ -206,11 +193,6 @@ span.tief {
     line-height: 15px;
 }
 
-.contact a {
-    text-decoration: none;
-    color: black;
-}
-
 .samenwerking {
     width: 300px;
 }
@@ -240,7 +222,7 @@ span.tief {
     margin-left: 20px;
     margin-right: 20px;
     text-align: left;
-    background-color: #ffa500;
+    background-color: orange;
 }
 
 
@@ -274,72 +256,40 @@ span.lid {
     justify-content: space-around;
     padding-bottom: 70px;
     margin-top: 50px;
-    flex-wrap: wrap;
 }
 
 .inschrijving-box a {
     text-decoration: none;
-    color: white;
-}
+    color: black;
+    transition: background-color 1s, border 1s;
 
-.inschrijving-box span {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 30px;
 }
 
 .inschrijving-box div {
-    transition: all 1s;
-    background-image: url(Images/CuttingMat.png);
-    background-repeat: no-repeat;
-    background-position: -210px;
-    border: 2px solid #1c52a6;
-    height: 120px;
+    transition: background-color 1s;
 }
 
 .inschrijving-box div:hover {
-    transform: translateY(-15px);
+    background-color: #00BFFF;
     transition-timing-function: ease;
-    border: 2px solid #1c52a6;
+    border: 2px solid #00BFFF;
 }
 
 .wauw-kids,
 .wauw-vol,
 .mix {
-    border: 2px solid #1c52a6;
+    border: 2px solid white;
     width: 250px;
+    background-color: white;
     border-radius: 20px;
-    text-align: center;
-}
-
-.inschrijving-box h3 {
-    padding-top: 10px;
-    font-size: 25px;
 
 }
 
-
-.wauw-vol h3 {
-    padding-top: 10px;
-}
-
-
-.left-header a {
-    transition: color .5s;
-}
-
-
-.left-header a:hover {
-    color: #1c52a6;
-    transition-timing-function: ease;
-}
-
-
-.right-header a {
-    transition: color .5s;
-}
-
-
-.right-header a:hover {
-    color: orange;
-    transition-timing-function: ease;
+.wauw-kids img,
+.wauw-vol img,
+.mix img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
 }
