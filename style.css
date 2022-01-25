@@ -102,7 +102,7 @@ span.wauw-text {
 }
 
 .wrapper {
-    background-image: url(Images/Artboard\ 4.png);
+    background-image: url(Images/CuttingMat.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 20px;
@@ -163,9 +163,9 @@ span.tief {
     text-decoration: none;
     margin-left: 30px;
     margin-bottom: 100px;
-    border: 2px solid #FFBF00;
+    border: 2px solid orange;
     padding: 5px 40px;
-    background-color: #FFBF00;
+    background-color: orange;
     color: white;
     transition: all 1s;
     display: inline-block;
@@ -204,6 +204,11 @@ span.tief {
     margin-left: 50px;
     margin-right: 60px;
     line-height: 15px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
 }
 
 .samenwerking {
@@ -273,39 +278,44 @@ span.lid {
 
 .inschrijving-box a {
     text-decoration: none;
-    color: black;
-    transition: background-color 1s, border 1s;
-
+    color: white;
 }
 
 .inschrijving-box div {
-    transition: background-color 1s;
+    transition: all 1s;
+    background-image: url(Images/CuttingMat.png);
+    background-repeat: no-repeat;
+    background-position: -210px;
+    border: 2px solid #1c52a6;
+    height: 120px;
 }
 
 .inschrijving-box div:hover {
-    background-color: #00BFFF;
+    transform: translateY(-15px);
     transition-timing-function: ease;
-    border: 2px solid #00BFFF;
+    border: 2px solid #1c52a6;
 }
 
 .wauw-kids,
 .wauw-vol,
 .mix {
-    border: 2px solid white;
+    border: 2px solid #1c52a6;
     width: 250px;
-    background-color: white;
     border-radius: 20px;
+    text-align: unset;
+}
+
+.inschrijving-box h3 {
+    padding-top: 25px;
+    font-size: 25px;
 
 }
 
-.wauw-kids img,
-.wauw-vol img,
-.mix img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    padding-bottom: 20px;
+
+.wauw-vol h3 {
+    padding-top: 10px;
 }
+
 
 .left-header a {
     transition: color .5s;
@@ -313,7 +323,7 @@ span.lid {
 
 
 .left-header a:hover {
-    color: #00BFFF;
+    color: #1c52a6;
     transition-timing-function: ease;
 }
 
