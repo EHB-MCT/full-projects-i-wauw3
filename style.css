@@ -282,6 +282,11 @@ span.lid {
     color: white;
 }
 
+.inschrijving-box span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
 .inschrijving-box div {
     transition: all 1s;
     background-image: url(Images/CuttingMat.png);
