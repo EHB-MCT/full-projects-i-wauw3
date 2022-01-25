@@ -1,0 +1,250 @@
+@import url("https://use.typekit.net/bjj0qdx.css");
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header img {
+    width: 300px;
+    top: 10px;
+    left: 30px;
+    position: relative;
+}
+
+.header {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.header a {
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.main {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #00bfff;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-image: url(/Images/CuttingMat.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+div .legend {
+    background-color: white;
+}
+
+.text {
+    text-align: left;
+    margin-left: 200px;
+    line-height: 30px;
+    color: white;
+    margin-right: 110px;
+}
+
+.text h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #00BFFF;
+    padding: 5px 30px;
+    background-color: #00BFFF;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.slider {
+    margin-left: 30px;
+}
+
+.slider img {
+    object-fit: cover;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.wrapper {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wrapper h1 {
+    font-size: 75px;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.think {
+    background-color: #e6e6e6;
+}
+
+.work {
+    background-color: #e6e6e6;
+}
+
+.play {
+    background-color: #e6e6e6;
+}
+
+.events {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffa500;
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.events h1 {
+    margin-left: 0px;
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.events h3 {
+    margin-left: 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+
+
+span.lid {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.events {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+
+.events a {
+    text-decoration: none;
+    font-family: 'Public Sans bold', sans-serif;
+    color: white;
+    background-color: #ffda00;
+    padding: 5px 40px;
+    border-radius: 20px;
+    transition: background-color 1s, border 1s;
+
+}
+
+.events div {
+    transition: background-color 1s;
+}
+
+.kalender {
+    background-color: white;
+    padding: 15%;
+}
+
+
+.footer-info {
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-info h2 {
+    font-size: 27px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.contact,
+.social,
+.wauw,
+.samenwerking {
+    color: black;
+    padding-top: 30px;
+    width: 250px;
+    margin-left: 50px;
+    margin-right: 60px;
+    line-height: 15px;
+}
+
+.samenwerking {
+    width: 300px;
+}
+
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 20px;
+}
+
+.samenwerking img {
+    object-fit: cover;
+    width: 35px;
+    display: flex;
+    border-radius: 100px;
+    padding: 5px;
+}

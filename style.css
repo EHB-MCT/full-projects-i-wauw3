@@ -163,9 +163,9 @@ span.tief {
     text-decoration: none;
     margin-left: 30px;
     margin-bottom: 100px;
-    border: 2px solid #FFBF00;
+    border: 2px solid orange;
     padding: 5px 40px;
-    background-color: #FFBF00;
+    background-color: orange;
     color: white;
     transition: all 1s;
     display: inline-block;
@@ -206,6 +206,11 @@ span.tief {
     line-height: 15px;
 }
 
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
 .samenwerking {
     width: 300px;
 }
@@ -235,7 +240,7 @@ span.tief {
     margin-left: 20px;
     margin-right: 20px;
     text-align: left;
-    background-color: orange;
+    background-color: #ffa500;
 }
 
 
@@ -269,40 +274,72 @@ span.lid {
     justify-content: space-around;
     padding-bottom: 70px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .inschrijving-box a {
     text-decoration: none;
-    color: black;
-    transition: background-color 1s, border 1s;
+    color: white;
+}
 
+.inschrijving-box span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
 }
 
 .inschrijving-box div {
-    transition: background-color 1s;
+    transition: all 1s;
+    background-image: url(Images/CuttingMat.png);
+    background-repeat: no-repeat;
+    background-position: -210px;
+    border: 2px solid #1c52a6;
+    height: 120px;
 }
 
 .inschrijving-box div:hover {
-    background-color: #00BFFF;
+    transform: translateY(-15px);
     transition-timing-function: ease;
-    border: 2px solid #00BFFF;
+    border: 2px solid #1c52a6;
 }
 
 .wauw-kids,
 .wauw-vol,
 .mix {
-    border: 2px solid white;
+    border: 2px solid #1c52a6;
     width: 250px;
-    background-color: white;
     border-radius: 20px;
+    text-align: center;
+}
+
+.inschrijving-box h3 {
+    padding-top: 10px;
+    font-size: 25px;
 
 }
 
-.wauw-kids img,
-.wauw-vol img,
-.mix img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    padding-bottom: 20px;
+
+.wauw-vol h3 {
+    padding-top: 10px;
+}
+
+
+.left-header a {
+    transition: color .5s;
+}
+
+
+.left-header a:hover {
+    color: #1c52a6;
+    transition-timing-function: ease;
+}
+
+
+.right-header a {
+    transition: color .5s;
+}
+
+
+.right-header a:hover {
+    color: orange;
+    transition-timing-function: ease;
 }
