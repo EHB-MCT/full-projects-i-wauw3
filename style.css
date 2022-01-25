@@ -274,6 +274,7 @@ span.lid {
     justify-content: space-around;
     padding-bottom: 70px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .inschrijving-box a {
@@ -302,11 +303,11 @@ span.lid {
     border: 2px solid #1c52a6;
     width: 250px;
     border-radius: 20px;
-    text-align: unset;
+    text-align: center;
 }
 
 .inschrijving-box h3 {
-    padding-top: 25px;
+    padding-top: 10px;
     font-size: 25px;
 
 }
