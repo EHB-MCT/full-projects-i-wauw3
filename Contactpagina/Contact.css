@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap');
+
+body {
+    margin-top: 1px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.header img {
+    width: 300px;
+    top: 10px;
+    left: 30px;
+    position: relative;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/ContactPagina/ImagesContact/background.png);
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0px 0px 019px 5px rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.container .contactinfo {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 16px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.container .contactinfo h2 {
+    color: #1c52a6;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.container .contactinfo ul.info {
+    margin-top: 70px;
+    position: relative;
+
+}
+
+.container .contactinfo ul.info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.container .contactinfo ul.info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+
+.container .contactinfo ul.info li span:nth-child(1) img {
+    max-width: 20px;
+}
+
+.container .contactinfo ul.socialmedia {
+
+    position: relative;
+    display: flex;
+    margin-top: 140px;
+}
+
+.container .contactinfo ul.socialmedia li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contactinfo ul.socialmedia li a {
+    text-decoration: none;
+}
+
+
+
+.container .contactform {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 550px;
+    padding: 40px inherit;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.container .contactform .form {
+    margin-top: 140px;
+}
+
+.container .contactform .field {
+    width: 80%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 16px;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.container .contactform .filed:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container .contactform .field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.container .contactform .btn {
+    width: 87%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #1c52f1;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: white;
+}
+
+.container .contactform .btn:hover {
+    background-color: #1c52a6;
+}
+
+
+.left-header a {
+    transition: color .5s;
+}
+
+
+.left-header a:hover {
+    color: #1c52a6;
+    transition-timing-function: ease;
+}
+
+
+.right-header a {
+    transition: color .5s;
+}
+
+
+.right-header a:hover {
+    color: orange;
+    transition-timing-function: ease;
+}
