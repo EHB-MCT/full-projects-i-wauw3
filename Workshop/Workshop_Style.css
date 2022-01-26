@@ -121,7 +121,7 @@ div .legend {
 }
 
 .wrapper button:hover {
-    color: gray;
+    color: orange;
     transition-timing-function: ease;
 }
 
