@@ -49,13 +49,13 @@
         </div>
     </div>
     <div class="wrapper">
-        <div class="think">
-            <h1>Think</h1><img src="" alt="">
+        <div class="think" id="think">
+            <h1><button onclick="myFunction()">Think</button></h1><img src="" alt="">
         </div>
-        <div class="work">
+        <div class="work" id="work">
             <h1>Work</h1><img src="" alt="">
         </div>
-        <div class="play">
+        <div class="play" id="play">
             <h1>Play</h1><img src="" alt="">
         </div>
     </div>
@@ -104,5 +104,16 @@
         </div>
     </div>
 </body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("think");
+        if (x.innerHTML === "think") {
+            x.innerHTML = "Swapped text!";
+        } else {
+            x.innerHTML = "<h3>Lorem ipsum</h3>";
+        }
+    }
+</script>
 
 </html>

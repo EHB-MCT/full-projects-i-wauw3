@@ -119,6 +119,16 @@ div .legend {
 
 .think {
     background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.think p {
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
 .work {
