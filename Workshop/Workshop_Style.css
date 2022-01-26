@@ -1,24 +1,22 @@
+/*Import fonts*/
 @import url("https://use.typekit.net/bjj0qdx.css");
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
-
+/*Whole page*/
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
     margin: 0;
     padding: 0;
 }
 
-
-
+/*Navigation*/
 .header img {
     width: 300px;
-    top: 10px;
     left: 30px;
     position: relative;
 }
@@ -43,6 +41,7 @@ body {
     font-weight: bold;
 }
 
+/*Workshop gallery section*/
 .main {
     margin-left: 20px;
     margin-right: 20px;
@@ -73,8 +72,18 @@ div .legend {
 }
 
 .text h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.text h1 span {
     font-family: 'Shadows Into Light', cursive;
     font-size: 70px;
+    color: orange;
+
 }
 
 .text p {
@@ -85,29 +94,21 @@ div .legend {
 .text a {
     text-decoration: none;
     color: white;
-    border: 2px solid #00BFFF;
+    border: 2px solid #1c52a6;
     padding: 5px 30px;
-    background-color: #00BFFF;
+    background-color: #1c52a6;
     font-weight: bold;
     font-size: 18px;
 
 }
 
-.slider {
-    margin-left: 30px;
-}
-
-.slider img {
-    object-fit: cover;
-    width: 500px;
-    border-radius: 20px;
-}
-
+/*Think work play section*/
 .wrapper {
     margin-left: 35%;
     margin-right: 35%;
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .wrapper h1 {
@@ -116,20 +117,53 @@ div .legend {
     color: black;
     text-align: center;
     padding-top: 10%;
+
 }
 
-.think {
+.wrapper button:hover {
+    color: orange;
+    transition-timing-function: ease;
+}
+
+.wrapper button {
+    font-size: 75px;
+    border: none;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+    padding-top: 0%;
     background-color: #e6e6e6;
+}
+
+.wrapper h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.wrapper div {
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.wrapper img {
+    padding-bottom: 10%;
 }
 
 .work {
-    background-color: #e6e6e6;
+    margin-top: 10%;
 }
 
 .play {
-    background-color: #e6e6e6;
+    margin-top: 10%;
 }
 
+/*Calendar section*/
 .events {
     margin-left: 20px;
     margin-right: 20px;
@@ -142,23 +176,20 @@ div .legend {
     padding-right: 50px;
 }
 
-
-.events h1 {
-    margin-left: 0px;
-    font-size: 50px;
-    color: white;
-    margin-top: 0px;
-    text-align: left;
-    padding-top: 100px;
+.content span {
+    font-family: 'Shadows Into Light', cursive;
 }
 
-.events h3 {
-    margin-left: 0px;
-    padding-bottom: 20px;
+.content h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.content p {
     font-size: 18px;
     color: white;
-    text-align: left;
 }
+
 
 
 
@@ -175,19 +206,26 @@ span.lid {
     margin-top: 50px;
 }
 
-.events a {
+
+
+.reserveer a {
     text-decoration: none;
-    font-family: 'Public Sans bold', sans-serif;
     color: white;
-    background-color: #ffda00;
+    background-color: #1c52a6;
     padding: 5px 40px;
-    border-radius: 20px;
-    transition: background-color 1s, border 1s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reserveer {
+    margin-top: 10%;
+    transition: transform 0.8s;
 
 }
 
-.events div {
-    transition: background-color 1s;
+.reserveer:hover {
+    transform: translateY(-20px);
+    transition-timing-function: ease-in-out;
 }
 
 .kalender {
@@ -195,7 +233,7 @@ span.lid {
     padding: 15%;
 }
 
-
+/*Footer*/
 .footer-info {
     background-color: whitesmoke;
     margin-left: 20px;
@@ -247,4 +285,25 @@ span.lid {
     display: flex;
     border-radius: 100px;
     padding: 5px;
+}
+
+.left-header a {
+    transition: color .5s;
+}
+
+
+.left-header a:hover {
+    color: #1c52a6;
+    transition-timing-function: ease;
+}
+
+
+.right-header a {
+    transition: color .5s;
+}
+
+
+.right-header a:hover {
+    color: orange;
+    transition-timing-function: ease;
 }
