@@ -123,7 +123,7 @@ div .legend {
     font-family: 'Shadows Into Light', bold;
     color: black;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 0%;
     background-color: #e6e6e6;
 }
 
@@ -156,10 +156,13 @@ div .legend {
 
 .work {
     background-color: #e6e6e6;
+    margin-top: 10%;
 }
 
 .play {
     background-color: #e6e6e6;
+    margin-top: 10%;
+
 }
 
 .events {

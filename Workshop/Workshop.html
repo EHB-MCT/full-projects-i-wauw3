@@ -50,13 +50,13 @@
     </div>
     <div class="wrapper">
         <div class="think" id="think">
-            <h1><button onclick="myFunction()">Think</button></h1><img src="" alt="">
+            <h1><button onclick="thinkButton()">Think</button></h1><img src="" alt="">
         </div>
         <div class="work" id="work">
-            <h1>Work</h1><img src="" alt="">
+            <h1><button onclick="workButton()">Work</button></h1><img src="" alt="">
         </div>
         <div class="play" id="play">
-            <h1>Play</h1><img src="" alt="">
+            <h1><button onclick="playButton()">Play</button></h1><img src="" alt="">
         </div>
     </div>
     <div class="events">
@@ -106,9 +106,29 @@
 </body>
 
 <script>
-    function myFunction() {
+    function thinkButton() {
         var x = document.getElementById("think");
         if (x.innerHTML === "think") {
+            x.innerHTML = "Swapped text!";
+        } else {
+            x.innerHTML =
+                "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>";
+        }
+    }
+
+    function workButton() {
+        var x = document.getElementById("work");
+        if (x.innerHTML === "work") {
+            x.innerHTML = "Swapped text!";
+        } else {
+            x.innerHTML =
+                "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>";
+        }
+    }
+
+    function playButton() {
+        var x = document.getElementById("play");
+        if (x.innerHTML === "play") {
             x.innerHTML = "Swapped text!";
         } else {
             x.innerHTML =
