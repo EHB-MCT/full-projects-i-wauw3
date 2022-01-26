@@ -92,15 +92,6 @@ div .legend {
 
 }
 
-.slider {
-    margin-left: 30px;
-}
-
-.slider img {
-    object-fit: cover;
-    width: 500px;
-    border-radius: 20px;
-}
 
 .wrapper {
     margin-left: 35%;
@@ -120,7 +111,7 @@ div .legend {
 .wrapper button {
     font-size: 75px;
     border: none;
-    font-family: 'Shadows Into Light', bold;
+    font-family: 'Shadows Into Light', cursive;
     color: black;
     text-align: center;
     padding-top: 0%;
@@ -207,18 +198,26 @@ span.lid {
     margin-top: 50px;
 }
 
-.events a {
+
+
+.reserveer a {
     text-decoration: none;
-    font-family: 'Public Sans bold', sans-serif;
     color: white;
     background-color: #1c52a6;
     padding: 5px 40px;
-    transition: background-color 1s, border 1s;
     font-size: 20px;
+    font-weight: bold;
 }
 
-.events div {
-    transition: background-color 1s;
+.reserveer {
+    margin-top: 10%;
+    transition: transform 0.8s;
+
+}
+
+.reserveer:hover {
+    transform: translateY(-20px);
+    transition-timing-function: ease-in-out;
 }
 
 .kalender {
