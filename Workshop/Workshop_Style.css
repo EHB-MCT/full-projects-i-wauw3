@@ -1,8 +1,9 @@
+/*Import fonts*/
 @import url("https://use.typekit.net/bjj0qdx.css");
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
-
+/*Whole page*/
 html {
     scroll-behavior: smooth;
 }
@@ -13,8 +14,7 @@ body {
     padding: 0;
 }
 
-
-
+/*Navigation*/
 .header img {
     width: 300px;
     top: 10px;
@@ -42,6 +42,7 @@ body {
     font-weight: bold;
 }
 
+/*Workshop gallery section*/
 .main {
     margin-left: 20px;
     margin-right: 20px;
@@ -92,7 +93,7 @@ div .legend {
 
 }
 
-
+/*Think work play section*/
 .wrapper {
     margin-left: 35%;
     margin-right: 35%;
@@ -153,6 +154,7 @@ div .legend {
     margin-top: 10%;
 }
 
+/*Calendar section*/
 .events {
     margin-left: 20px;
     margin-right: 20px;
@@ -222,7 +224,7 @@ span.lid {
     padding: 15%;
 }
 
-
+/*Footer*/
 .footer-info {
     background-color: whitesmoke;
     margin-left: 20px;

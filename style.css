@@ -1,8 +1,9 @@
+/*Import Fonts*/
 @import url("https://use.typekit.net/bjj0qdx.css");
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
-
+/*Whole Page*/
 html {
     scroll-behavior: smooth;
 }
@@ -15,7 +16,7 @@ body {
 }
 
 
-
+/*Navigation*/
 .header img {
     width: 300px;
     top: 10px;
@@ -43,7 +44,7 @@ body {
     font-weight: bold;
 }
 
-
+/*First introduction section*/
 .main {
     margin-left: 20px;
     margin-right: 20px;
@@ -101,6 +102,7 @@ span.wauw-text {
     border-radius: 20px;
 }
 
+/*Workshop introductory section*/
 .wrapper {
     background-image: url(Images/CuttingMat.png);
     background-repeat: no-repeat;
@@ -146,7 +148,7 @@ span.tief {
     color: white;
 }
 
-
+/*Subscribe section*/
 .image-s img {
     object-fit: cover;
     margin-top: 50px;
@@ -178,6 +180,7 @@ span.tief {
     background-color: #FFD700;
 }
 
+/*Footer*/
 .footer-info {
     background-color: whitesmoke;
     margin-left: 20px;
@@ -268,6 +271,7 @@ span.lid {
 
 }
 
+/*Subscribe section*/
 .inschrijving-box {
     text-align: center;
     display: flex;
@@ -321,6 +325,7 @@ span.lid {
 }
 
 
+/*Animation*/
 .left-header a {
     transition: color .5s;
 }
