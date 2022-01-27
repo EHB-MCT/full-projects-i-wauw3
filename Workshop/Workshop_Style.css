@@ -104,10 +104,13 @@ body {
 .legende {
     background-color: #e6e6e6;
     border-radius: 20px;
-    color: #ffda00;
+    color: #ffd900e5;
     width: 20%;
     padding-left: 10px;
     margin-left: 2.5%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .L1 {
@@ -413,8 +416,8 @@ span.lid {
 
 .items a {
     text-decoration: none;
-    color: white;
-    background-color: #1c52a6;
+    color: #1c52a6;
+    background-color: orange;
     padding: 5px 40px;
     font-size: 20px;
     font-weight: bold;
