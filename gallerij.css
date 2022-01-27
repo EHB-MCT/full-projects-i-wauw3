@@ -125,7 +125,6 @@ body {
 
 section {
     padding: 20px;
-    width: 1280px;
     margin: 40px auto;
 
 }
@@ -133,7 +132,7 @@ section {
 section ul {
     display: flex;
     margin-bottom: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 section ul li {
@@ -211,4 +210,8 @@ section ul li.active {
 /* GILL CODE */
 .box-img-wrapper {
     display: inline-block;
+}
+
+.hover-active {
+    background-color: #1c52a6;
 }
