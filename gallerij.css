@@ -127,11 +127,13 @@ section {
     padding: 20px;
     width: 1280px;
     margin: 40px auto;
+
 }
 
 section ul {
     display: flex;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 section ul li {
@@ -160,14 +162,18 @@ section ul li.active {
     display: flex;
     flex-wrap: wrap;
     margin-left: 0px;
-    margin-right: 205px;
     justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
 }
 
 
 .items .itembox {
     position: relative;
     margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .itembox img {
@@ -176,6 +182,7 @@ section ul li.active {
     width: 263px;
     height: 237px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .left-header a {
@@ -197,4 +204,11 @@ section ul li.active {
 .right-header a:hover {
     color: orange;
     transition-timing-function: ease;
+}
+
+
+
+/* GILL CODE */
+.box-img-wrapper {
+    display: inline-block;
 }
