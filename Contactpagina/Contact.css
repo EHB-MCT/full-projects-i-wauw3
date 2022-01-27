@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap');
 
 body {
-    margin-top: 1px;
-    margin-bottom: 0;
     margin-right: 20px;
     margin-left: 20px;
     padding: 0;
@@ -72,18 +70,16 @@ section {
     border-radius: 10px;
 }
 
-.container .contactinfo h2 {
+.container .contactform h2 {
     color: #1c52a6;
-    font-size: 30px;
-    font-weight: 500;
-    margin-left: 30px;
-    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Public Sans', sans-serif;
 }
 
-.container .contactinfo h2 span {
+.container .contactform h2 span {
     color: orange;
-    font-size: 30px;
-    font-family: 'Public Sans', sans-serif;
+    font-size: 40px;
 }
 
 
@@ -132,16 +128,16 @@ section {
 .container .contactform {
     position: absolute;
     width: 50%;
-    height: 100%;
-    margin-left: 550px;
+    margin-left: 30%;
     padding: 40px inherit;
     background: white;
     border: none;
     border-radius: 10px;
 }
 
+
 .container .contactform .form {
-    margin-top: 140px;
+    margin-top: 15%;
 
 }
 
