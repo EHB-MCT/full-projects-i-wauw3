@@ -139,7 +139,7 @@ section h1 {
 section ul {
     display: flex;
     margin-bottom: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 section ul li {
