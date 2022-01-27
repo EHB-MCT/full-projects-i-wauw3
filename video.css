@@ -4,6 +4,10 @@
     text-transform: capitalize;
 }
 
+.heading span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+}
 
 .container {
     display: grid;
