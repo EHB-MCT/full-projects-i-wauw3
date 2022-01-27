@@ -45,13 +45,11 @@ body {
 .main {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: #00bfff;
     padding-top: 50px;
     padding-bottom: 60px;
-    background-image: url(/Images/CuttingMat.png);
+    background-image: url(/MicrosoftTeams-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-
+    background-position: center;
 }
 
 .main {
@@ -142,10 +140,6 @@ div .legend {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-.card a {
-    /*margin-top: 20px;*/
 }
 
 .card-1 h1 {
