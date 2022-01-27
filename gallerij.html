@@ -27,7 +27,6 @@
     </div>
     <section>
         <ul>
-            <li class="list active" data-filter="Alles">Alles</li>
             <li class="list" data-filter="Bikkenstad">Bikkenstad</li>
             <li class="list" data-filter="Schaal-wauwman">Schaal wauwman</li>
             <li class="list" data-filter="Droomhuizen">Droomhuizen</li>
@@ -37,49 +36,49 @@
             <li class="list" data-filter="Rebag">Rebag</li>
         </ul>
         <div class="items">
-            <div class="itembox Bikkenstad Alles">
+            <div class="itembox Bikkenstad Alles" style="display: none;">
                 <img src="Images/Project Images/01_bikkenstad/BovenaanzichtZOOM2.jpg">
                 <img src="Images/Project Images/01_bikkenstad/DSCN9196.JPG">
                 <img src="Images/Project Images/01_bikkenstad/zijaanzicht ruim.JPG">
                 <img src="Images/Project Images/01_bikkenstad/Bovenaanzicht2.jpg">
             </div>
 
-            <div class="itembox Schaal-wauwman Alles">
+            <div class="itembox Schaal-wauwman Alles" style="display: none;">
                 <img src="Images/Project Images/02_schaal wauwman/10636194_551920294910117_289188751717140465_n.jpg">
                 <img src="images/Project Images/02_schaal wauwman/10686854_551920368243443_4529588136735838522_n.jpg">
                 <img src="images/Project Images/02_schaal wauwman/1939510_551920214910125_6520315219772783844_n.jpg">
                 <img src="images/Project Images/02_schaal wauwman/10712885_551919914910155_7887782638084025154_n.jpg">
             </div>
 
-            <div class="itembox Droomhuizen Alles">
+            <div class="itembox Droomhuizen Alles" style="display: none;">
                 <img src="images/Project Images/03_droomhuizen/Droomhuis_1.jpg">
                 <img src="images/Project Images/03_droomhuizen/Droomhuis_2.jpg">
                 <img src="images/Project Images/03_droomhuizen/Droomhuis-09.jpg">
                 <img src="images/Project Images/03_droomhuizen/DSC03522.JPG">
             </div>
 
-            <div class="itembox Zomercafé Alles">
+            <div class="itembox Zomercafé Alles" style="display: none;">
                 <img src="images/Project Images/04_zomercafé/zomercafé_6.jpg">
                 <img src="images/Project Images/04_zomercafé/zomercafé_5.jpg">
                 <img src="images/Project Images/04_zomercafé/zomercafé_3.jpg">
                 <img src="images/Project Images/04_zomercafé/zomercafé_4.jpg">
             </div>
 
-            <div class="itembox Betonvorm Alles">
+            <div class="itembox Betonvorm Alles" style="display: none;">
                 <img src="images/Project Images/05_Betonvorm/WAUW BETON6.jpg">
                 <img src="images/Project Images/05_Betonvorm/Beton_4.jpg">
                 <img src="images/Project Images/05_Betonvorm/WAUW BETON12.jpg">
                 <img src="images/Project Images/05_Betonvorm/WAUW BETON10.jpg">
             </div>
 
-            <div class="itembox Urban-legends Alles">
+            <div class="itembox Urban-legends Alles" style="display: none;">
                 <img src="images/Project Images/06_urban legends/urbanledgends_1.jpg">
                 <img src="images/Project Images/06_urban legends/urbanledgends_3.jpg">
                 <img src="images/Project Images/06_urban legends/urbanledgends_2.jpg">
                 <img src="images/Project Images/06_urban legends/urbanledgends_12.jpg">
             </div>
 
-            <div class="itembox Rebag Alles">
+            <div class="itembox Rebag Alles" style="display: none;">
                 <img src="images/Project Images/07_rebag/Zakken_1.jpg">
                 <img src="images/Project Images/07_rebag/Zakken_2.jpg">
                 <img src="images/Project Images/07_rebag/Zakken_3.jpg">
@@ -181,6 +180,7 @@
             integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script type="text/javascript">
             $(document).ready(function () {
+
                 $('.list').click(function () {
                     const value = $(this).attr('data-filter');
                     if (value == 'Alles') {
