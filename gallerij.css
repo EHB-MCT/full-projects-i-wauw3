@@ -70,7 +70,6 @@ body {
     background-color: whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
-    height: 250px;
     margin-top: 0;
     display: flex;
     justify-content: space-between;
@@ -91,7 +90,7 @@ body {
     width: 250px;
     margin-left: 50px;
     margin-right: 60px;
-    line-height: 15px;
+    line-height: 35px;
 }
 
 .contact a {
@@ -177,4 +176,25 @@ section ul li.active {
     width: 263px;
     height: 237px;
     object-fit: cover;
+}
+
+.left-header a {
+    transition: color .5s;
+}
+
+
+.left-header a:hover {
+    color: #1c52a6;
+    transition-timing-function: ease;
+}
+
+
+.right-header a {
+    transition: color .5s;
+}
+
+
+.right-header a:hover {
+    color: orange;
+    transition-timing-function: ease;
 }
