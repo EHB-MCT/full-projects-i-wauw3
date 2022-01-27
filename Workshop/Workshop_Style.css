@@ -307,3 +307,35 @@ span.lid {
     color: orange;
     transition-timing-function: ease;
 }
+
+@media (max-width:1024px) {
+
+    .right-header {
+        margin-left: 10%;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .wrapper img {
+        width: 50%;
+    }
+
+    .events p {
+        font-size: 15px;
+    }
+
+    .footer-info h2 {
+        font-size: 21px;
+    }
+
+    .footer-info p,
+    .footer-info h4 {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:768px) {}
