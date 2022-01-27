@@ -133,14 +133,92 @@ div .legend {
 }
 
 .card h1 {
-    color: #ffda00;
+    margin: 10px;
 }
 
 .card p {
     font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .card a {
+    /*margin-top: 20px;*/
+}
+
+.card-1 h1 {
+    color: #ffda00;
+}
+
+.card-1 a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #ffda00;
+    padding: 5px 30px;
+    background-color: #ffda00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-2 h1 {
+    color: #1c52a6;
+}
+
+.card-2 a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #1c52a6;
+    padding: 5px 30px;
+    background-color: #1c52a6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-3 h1 {
+    color: #8cc63f;
+}
+
+.card-3 img {
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+.card-3 a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #8cc63f;
+    padding: 5px 30px;
+    background-color: #8cc63f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-4 h1 {
+    color: #ff931e;
+}
+
+.card-4 img {
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+.card-4 a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #ff931e;
+    padding: 5px 30px;
+    background-color: #ff931e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-5 h1 {
+    color: #ffda00;
+}
+
+.card-5 a {
     text-decoration: none;
     color: white;
     border: 2px solid #ffda00;
