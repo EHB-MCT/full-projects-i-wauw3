@@ -17,7 +17,6 @@ body {
 /*Navigation*/
 .header img {
     width: 300px;
-    top: 10px;
     left: 30px;
     position: relative;
 }
@@ -73,8 +72,18 @@ div .legend {
 }
 
 .text h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.text h1 span {
     font-family: 'Shadows Into Light', cursive;
     font-size: 70px;
+    color: orange;
+
 }
 
 .text p {
@@ -167,7 +176,7 @@ div .legend {
 }
 
 .wrapper button:hover {
-    color: gray;
+    color: orange;
     transition-timing-function: ease;
 }
 
@@ -353,3 +362,35 @@ span.lid {
     color: orange;
     transition-timing-function: ease;
 }
+
+@media (max-width:1024px) {
+
+    .right-header {
+        margin-left: 10%;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .wrapper img {
+        width: 50%;
+    }
+
+    .events p {
+        font-size: 15px;
+    }
+
+    .footer-info h2 {
+        font-size: 21px;
+    }
+
+    .footer-info p,
+    .footer-info h4 {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:768px) {}
