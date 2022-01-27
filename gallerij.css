@@ -144,13 +144,27 @@ section ul li {
 }
 
 section ul li.active {
-    background: #03a9f4;
+    background: #1c52a6;
     color: #fff;
+}
+
+.list {
+    color: orange;
+}
+
+.list:hover {
+    background-color: #1c52a6;
 }
 
 .items {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.items .itembox-Bikkenstad {
+    display: flex;
 }
 
 .items .itembox {
@@ -160,7 +174,7 @@ section ul li.active {
     margin: 5px;
 }
 
-.items .itembox img {
+.itembox img {
     top: 0;
     left: 0;
     width: 300px;
