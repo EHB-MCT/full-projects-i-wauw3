@@ -93,6 +93,61 @@ div .legend {
 
 }
 
+/*Owl-carousel*/
+.cover {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*min-height: 100vh;*/
+}
+
+.cover .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.carousel .card {
+    background: red;
+    /*line-height: 200px;*/
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    /*font-size: 90px;*/
+    /*font-weight: 600;*/
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card a {
+    font-size: 18px;
+}
+
+.carousel .card-1 {
+    background-color: red;
+}
+
+.carousel .card-2 {
+    background-color: blue;
+}
+
+.carousel .card-3 {
+    background-color: yellow;
+}
+
+.carousel .card-4 {
+    background-color: purple;
+}
+
+.carousel .card-5 {
+    background-color: green;
+}
+
 /*Think work play section*/
 .wrapper {
     margin-left: 35%;

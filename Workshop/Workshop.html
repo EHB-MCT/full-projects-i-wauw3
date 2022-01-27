@@ -8,6 +8,9 @@
     <title>WAUWworkshops</title>
     <link rel="Stylesheet" href="Workshop_Style.css">
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
 </head>
 
@@ -45,6 +48,24 @@
                     Soms 10 minuten, soms 3 uur, een hele dag, enkele dagen achter elkaar, enkele
                     dagen verspreid over enkele weken</h3>
 
+            </div>
+            <div class="cover">
+                <div class="carousel owl-carousel">
+                    <div class="card card-1">
+                        <img src="/Images/think_image.png">
+                        <h1>Bikkenstad</h1>
+                        <p>Een skyline aan
+                            de rand van ons
+                            bureau. In deze
+                            doorloopwork...
+                        </p>
+                        <a href="#">See More</a>
+                    </div>
+                    <div class="card card-2">B</div>
+                    <div class="card card-3">C</div>
+                    <div class="card card-4">D</div>
+                    <div class="card card-5">E</div>
+                </div>
             </div>
         </div>
     </div>
@@ -106,6 +127,29 @@
             </div>
         </div>
     </div>
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+    </script>
 </body>
 
 <script>
