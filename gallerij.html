@@ -9,6 +9,7 @@
     <link rel="Stylesheet" href="gallerij.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="video.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -89,36 +90,38 @@
 
     <div class="heading">
         <h1>Wauw-<span>Tube</span></h1>
-        <div class="container">
-            <div class="main-video">
-                <div class="video">
-                    <video src="/videos/wauw1.mp4" controls muted autoplay></video>
-                    <h3 class="title"> 01. Wat is het nieuwe Goud?</h3>
-                </div>
-            </div>
-
-            <div class="video-list">
-                <div class="vid active">
-                    <video src="/videos/wauw1.mp4" muted></video>
-                    <h3 class="title"> 01. Wat is het nieuwe Goud?</h3>
-                </div>
-                <div class="vid">
-                    <video src="/videos/wauw2.mp4" muted></video>
-                    <h3 class="title"> 02. Gerecycleerd karton & papier</h3>
-                </div>
-                <div class="vid">
-                    <video src="/videos/wauw3.mp4" muted></video>
-                    <h3 class="title"> 03. Staalslakmortel</h3>
-                </div>
-                <div class="vid">
-                    <video src="/videos/wauw4.mp4" muted></video>
-                    <h3 class="title"> 04. Recuperatie plastics</h3>
-                </div>
-                <div class="vid">
-                    <video src="/videos/wauw5.mp4" muted></video>
-                    <h3 class="title"> 05. Algen & gietporselein</h3>
+        <div data-aos="fade-right">
+            <div class="container">
+                <div class="main-video">
+                    <div class="video">
+                        <video src="/videos/wauw1.mp4" controls muted></video>
+                        <h3 class="title"> 01. Wat is het nieuwe Goud?</h3>
+                    </div>
                 </div>
 
+                <div class="video-list">
+                    <div class="vid active">
+                        <video src="/videos/wauw1.mp4" muted></video>
+                        <h3 class="title"> 01. Wat is het nieuwe Goud?</h3>
+                    </div>
+                    <div class="vid">
+                        <video src="/videos/wauw2.mp4" muted></video>
+                        <h3 class="title"> 02. Gerecycleerd karton & papier</h3>
+                    </div>
+                    <div class="vid">
+                        <video src="/videos/wauw3.mp4" muted></video>
+                        <h3 class="title"> 03. Staalslakmortel</h3>
+                    </div>
+                    <div class="vid">
+                        <video src="/videos/wauw4.mp4" muted></video>
+                        <h3 class="title"> 04. Recuperatie plastics</h3>
+                    </div>
+                    <div class="vid">
+                        <video src="/videos/wauw5.mp4" muted></video>
+                        <h3 class="title"> 05. Algen & gietporselein</h3>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -192,6 +195,15 @@
                 })
             })
         </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                offset: 400,
+                duration: 1000
+            });
+        </script>
+
 
 </body>
 
