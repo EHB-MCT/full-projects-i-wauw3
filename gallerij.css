@@ -140,6 +140,7 @@ section ul {
     display: flex;
     margin-bottom: 10px;
     justify-content: space-evenly;
+
 }
 
 section ul li {
@@ -148,6 +149,7 @@ section ul li {
     padding: 8px 20px;
     letter-spacing: 1px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 section ul li.active {

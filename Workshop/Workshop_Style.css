@@ -87,6 +87,8 @@ div .legend {
 .text p {
     font-size: 18px;
     line-height: 25px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .text a {
@@ -130,6 +132,7 @@ div .legend {
 }
 
 .card h1 {
+    font-size: 25px;
     margin: 10px;
 }
 
@@ -139,6 +142,7 @@ div .legend {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .card-1 h1 {
@@ -220,6 +224,7 @@ div .legend {
     font-weight: bold;
     font-size: 18px;
 }
+
 
 /*Think work play section*/
 .wrapper {

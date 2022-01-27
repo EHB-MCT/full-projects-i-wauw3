@@ -104,14 +104,14 @@ span.wauw-text {
 
 /*Workshop introductory section*/
 .wrapper {
-    background-image: url(Images/CuttingMat.png);
+    background-image: url(/MicrosoftTeams-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
     text-align: left;
+    background-position: center;
 }
 
 
