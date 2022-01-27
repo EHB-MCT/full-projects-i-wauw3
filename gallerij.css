@@ -125,8 +125,15 @@ body {
 
 section {
     padding: 20px;
-    margin: 40px auto;
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
 
+}
+
+section h1 {
+    font-size: 70px;
+    padding-bottom: 5%;
 }
 
 section ul {
