@@ -11,18 +11,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 400,
-            duration: 1000
-        });
-    </script>
-
     <div class="header">
         <div class="left-header">
             <a href="/index.html">Home</a>
@@ -35,7 +27,7 @@
         </div>
     </div>
     <div class="main">
-        <div data-aos="flip-left">
+        <div data-aos="zoom-in">
 
             <div class="text">
                 <h1>Work<span>shops</span></h1>
@@ -50,8 +42,8 @@
 
             </div>
             <div class="legende">
-                <h2>Architectuur </h2>
                 <h2><span class="L1">Art</span></h2>
+                <h2>Architectuur </h2>
                 <h2><span class="L2">Urbanisme</span></h2>
                 <h2><span class="L3">Utopisme</span></h2>
             </div>
@@ -68,7 +60,7 @@
                             bikkenstad van oude
                             boeken.
                         </p>
-                        <div>
+                        <div class="bikkenstad">
                             <a href="#">See More</a></div>
                     </div>
                     <div class="card card-2"><img
@@ -84,7 +76,7 @@
                             architectuur, interieurontwerp,
                             design en scenografie.
                         </p>
-                        <div>
+                        <div class="schaal">
                             <a href="#">See More</a></div>
                     </div>
                     <div class="card card-3"><img
@@ -104,14 +96,14 @@
                     <div class="card card-4"><img
                             src="../Images/Project Images/09_drijvendeStad/1x/drijvendeStad_Image.png"></img>
                         <h1>Drijvende stad</h1>
-                        <p>Op het vijverfestival - met
-                            drijvend podium - doen
+                        <p>Op het vijverfestival met
+                            drijvend podium doen
                             we een doorloopworkshop
                             om boomhutten te
                             ontwerpen op iddylische
                             palmboomeilanden.
                         </p>
-                        <div>
+                        <div class="drijvstad">
                             <a href="#">See More</a></div>
                     </div>
                     <div class="card card-5"><img src="../Images/Project Images/07_rebag/Zakken_2.jpg"></img>
@@ -123,7 +115,7 @@
                             programma en het materiaal en maken
                             prototypes van uitgepuurde ideeën.
                         </p>
-                        <div>
+                        <div class="zakont">
                             <a href="#">See More</a></div>
                     </div>
                 </div>
@@ -131,23 +123,35 @@
         </div>
     </div>
     <div class="wrapper">
-        <div class="think" id="think">
-            <h1><button onclick="thinkButton()">Think</button></h1>
-            <div class="wrapper-img"><img src="/Images/Lightbulb_Drawing.png" alt=""></div>
+        <div data-aos="fade-left">
+
+            <div class="think" id="think">
+                <h1><button onclick="thinkButton()">Think</button></h1>
+                <div class="wrapper-img"><img src="/Images/Lightbulb_Drawing.png" alt=""></div>
+            </div>
         </div>
-        <div class="work" id="work">
-            <h1><button onclick="workButton()">Work</button></h1><img src="/Images/OfficeStuff_Drawing.png" alt="">
+
+        <div data-aos="fade-left">
+            <div class="work" id="work">
+                <h1><button onclick="workButton()">Work</button></h1><img src="/Images/OfficeStuff_Drawing.png" alt="">
+            </div>
         </div>
-        <div class="play" id="play">
-            <h1><button onclick="playButton()">Play</button></h1><img src="/Images/playing_drawing.png" alt="">
+        <div data-aos="fade-left">
+            <div class="play" id="play">
+                <h1><button onclick="playButton()">Play</button></h1><img src="/Images/playing_drawing.png" alt="">
+            </div>
         </div>
+
     </div>
     <div class="events">
-        <div class="content">
-            <h1>Aankomende<br><span>projecten</span> </h1>
-            <p>Als u wilt komen en een van de volgende<br> projecten samen met ons beleven, dan kan<br> je een plaats
-                reserveren indien het project<br> een beperkt aantal plaatsen heeft
-            </p>
+        <div data-aos="fade-right">
+            <div class="content">
+                <h1>Aankomende<br><span>projecten</span> </h1>
+                <p>Als u wilt komen en een van de volgende<br> projecten samen met ons beleven, dan kan<br> je een
+                    plaats
+                    reserveren indien het project<br> een beperkt aantal plaatsen heeft
+                </p>
+            </div>
         </div>
         <div class="kalender">
             <div class="scroll-calendar">
@@ -176,7 +180,8 @@
                                 14-17u<br><img src="/Images/Icons/multiple-users-silhouette (1).png"> Voor kinderen van
                                 7 tot 12 jaar</p>
                         </div>
-                        <div><a href=" http://www.recyclart.be/nl/agenda/archikids-3">Meer Info</a></div>
+                        <div><a href=" http://www.recyclart.be/nl/agenda/archikids-3" target="_blank">Meer Info</a>
+                        </div>
                     </div>
                 </div>
                 <div class="items item-3">
@@ -190,7 +195,7 @@
                                 -<br><img src="/Images/Icons/multiple-users-silhouette (1).png"> Leerlingen &
                                 leerkrachten</p>
                         </div>
-                        <div><a href="https://teachup2030.be/">Meer Info</a></div>
+                        <div><a href="https://teachup2030.be/" target="_blank">Meer Info</a></div>
                     </div>
                 </div>
                 <div class="items item-4">
@@ -293,6 +298,15 @@
             "<div class=" + "wrapper-img" + "><img src=" + "/Images/play_image.png" + " alt=" + "" + "></div>";
 
     }
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
+    });
 </script>
 
 </html>

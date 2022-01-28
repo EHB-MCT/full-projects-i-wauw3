@@ -102,7 +102,7 @@ body {
 
 /*Legend for the carousel*/
 .legende {
-    background-color: #e6e6e6;
+    background-color: white;
     border-radius: 20px;
     color: #ffd900e5;
     width: 15%;
@@ -250,6 +250,25 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
+
+.drijvstad {
+    padding-top: 18%;
+}
+
+.bikkenstad {
+    padding-top: 23%;
+}
+
+.zakont {
+    padding-top: 8%;
+}
+
+.schaal {
+    padding-top: 2%;
+}
+
+
+
 
 
 /*Think work play section*/
