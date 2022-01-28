@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device -width, initial-scale=1.0">
     <title>Contact Pagina</title>
     <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -24,22 +25,33 @@
     </div>
 
     <section id="contact">
-        <div class="container">
-            <div class="contactform">
-                <div class="form">
-                    <h2>Contacteer <span>Ons</span></h2>
-                    <form action="https://formsubmit.co/wauw.workshops@gmail.com" method="POST">
-                        <input type="name" name="Naam" class="field" placeholder="Naam" required>
-                        <input type="tekst" name="E-mail" class="field" placeholder="Email" required>
-                        <input type="number" name="GSM-Nummer" class="field" placeholder="Nummer" required>
-                        <textarea class="field" name="Bericht" placeholder="Bericht schrijven" required></textarea>
-                        <button class="btn">Verzenden</button>
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <div class="container">
+                <div class="contactform">
+                    <div class="form">
+                        <h2>Contacteer <span>Ons</span></h2>
+                        <form action="https://formsubmit.co/wauw.workshops@gmail.com" method="POST">
+                            <input type="name" name="Naam" class="field" placeholder="Naam" required>
+                            <input type="tekst" name="E-mail" class="field" placeholder="Email" required>
+                            <input type="number" name="GSM-Nummer" class="field" placeholder="Nummer" required>
+                            <textarea class="field" name="Bericht" placeholder="Bericht schrijven" required></textarea>
+                            <button class="btn">Verzenden</button>
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
+
 
 </body>
 
