@@ -139,6 +139,7 @@ section h1 {
 section ul {
     display: flex;
     margin-bottom: 10px;
+    margin-top: -40px;
     justify-content: space-evenly;
 
 }
@@ -215,12 +216,29 @@ section ul li.active {
 }
 
 
-
-/* GILL CODE */
 .box-img-wrapper {
     display: inline-block;
 }
 
 .hover-active {
     background-color: #1c52a6;
+}
+
+
+
+.hoofd h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 70px;
+    margin-top: 1%;
+    text-align: start;
+    color: #1c52a6;
+
+
+}
+
+.hoofd h1 span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color: orange;
+
 }
