@@ -76,6 +76,13 @@ body {
 
 }
 
+.contact h4 {
+    border: 2px black solid;
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
+}
+
 .footer-info h2 {
     font-size: 27px;
     font-family: 'Shadows Into Light', cursive;
@@ -90,7 +97,8 @@ body {
     width: 250px;
     margin-left: 50px;
     margin-right: 60px;
-    line-height: 35px;
+    line-height: 15px;
+
 }
 
 .contact a {
@@ -123,81 +131,6 @@ body {
     padding: 5px;
 }
 
-section {
-    padding: 20px;
-    margin-top: 2%;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-
-section h1 {
-    font-size: 70px;
-    padding-bottom: 5%;
-}
-
-section ul {
-    display: flex;
-    margin-bottom: 10px;
-    margin-top: -40px;
-    justify-content: space-evenly;
-
-}
-
-section ul li {
-    list-style: none;
-    background: #eee;
-    padding: 8px 20px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-section ul li.active {
-    background: #1c52a6;
-    color: #fff;
-}
-
-.list {
-    color: orange;
-}
-
-.list:hover {
-    background-color: #1c52a6;
-}
-
-.items {
-    background-color: #1c52a6;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    justify-content: space-between;
-    width: 100%;
-    border-radius: 20px;
-}
-
-
-.items .itembox {
-    position: relative;
-    margin: 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.itembox img {
-    top: 0;
-    left: 0;
-    width: 263px;
-    height: 237px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.left-header a {
-    transition: color .5s;
-}
-
 
 .left-header a:hover {
     color: #1c52a6;
@@ -213,32 +146,4 @@ section ul li.active {
 .right-header a:hover {
     color: orange;
     transition-timing-function: ease;
-}
-
-
-.box-img-wrapper {
-    display: inline-block;
-}
-
-.hover-active {
-    background-color: #1c52a6;
-}
-
-
-
-.hoofd h1 {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 70px;
-    margin-top: 1%;
-    text-align: start;
-    color: #1c52a6;
-
-
-}
-
-.hoofd h1 span {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 70px;
-    color: orange;
-
 }
