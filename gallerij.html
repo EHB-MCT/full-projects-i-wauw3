@@ -26,7 +26,7 @@
             <a href="Workshop/Workshop.html#agenda">Agenda</a>
         </div>
     </div>
-
+    <!--WAUW Tube-->
     <div class="heading">
         <h1>Wauw-<span>Tube</span></h1>
         <div class="container">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-
+    <!--FOOTER-->
     <div class="footer-info">
         <div class="wauw">
             <h2>Wauw Workshops</h2>
@@ -99,52 +99,39 @@
                 <img src="Images/téléchargement1.png" alt="">
             </div>
         </div>
+    </div>
 
-        <script>
-            let listVideo = document.querySelectorAll('.video-list .vid');
-            let mainVideo = document.querySelector('.main-video video');
-            let title = document.querySelector('.main-video .title');
+    <!--SCRIPTS-->
+    <script>
+        let listVideo = document.querySelectorAll('.video-list .vid');
+        let mainVideo = document.querySelector('.main-video video');
+        let title = document.querySelector('.main-video .title');
 
-            listVideo.forEach(video => {
-                video.onclick = () => {
-                    listVideo.forEach(vid => vid.classList.remove('active'));
-                    video.classList.add('active');
-                    if (video.classList.contains('active')) {
-                        let src = video.children[0].getAttribute('src');
-                        mainVideo.src = src;
-                        let text = video.children[1].innerHTML;
-                        title.innerHTML = text;
-                    };
+        listVideo.forEach(video => {
+            video.onclick = () => {
+                listVideo.forEach(vid => vid.classList.remove('active'));
+                video.classList.add('active');
+                if (video.classList.contains('active')) {
+                    let src = video.children[0].getAttribute('src');
+                    mainVideo.src = src;
+                    let text = video.children[1].innerHTML;
+                    title.innerHTML = text;
                 };
-            });
-        </script>
-        <script src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
+            };
+        });
+    </script>
 
-                $('.list').click(function () {
-                    const value = $(this).attr('data-filter');
-                    if (value == 'Alles') {
-                        $('.itembox').show('1000');
-                    } else {
-                        $('.itembox').not('.' + value).hide('1000');
-                        $('.itembox').filter('.' + value).show('1000');
-                    }
-                })
-                $('.list').click(function () {
-                    $(this).addClass('active').siblings().removeClass('active')
-                })
-            })
-        </script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+    
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 
-        <script>
-            AOS.init({
-                offset: 400,
-                duration: 1000
-            });
-        </script>
 
 
 </body>
