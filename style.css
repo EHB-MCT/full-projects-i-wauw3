@@ -149,6 +149,32 @@ span.tief {
 }
 
 /*Think work play section*/
+
+.outerwrapper {
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.outerwrapper h1 {
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 5%;
+    color: orange;
+    font-size: 70px;
+}
+
+.outerwrapper p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 0px;
+}
+
+.outerwrapper span {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
 .wrapper-think {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -156,9 +182,7 @@ span.tief {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: whitesmoke;
-    margin-left: 20px;
-    margin-right: 20px;
+
 }
 
 .wrapper-think h1 {
