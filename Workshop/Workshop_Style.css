@@ -78,8 +78,6 @@ body {
 .text h1 span {
     font-family: 'Shadows Into Light', cursive;
     font-size: 70px;
-    color: orange;
-
 }
 
 .text p {
@@ -267,68 +265,99 @@ body {
     padding-top: 2%;
 }
 
-
-
-
-
-/*Think work play section*/
-.wrapper {
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+/* Gallery section*/
+.hoofd h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 70px;
+    margin-top: 1%;
     text-align: center;
+    color: #1c52a6;
 }
 
-.wrapper h1 {
-    font-size: 75px;
+.hoofd h1 span {
     font-family: 'Shadows Into Light', cursive;
-    color: black;
-    text-align: center;
-    padding-top: 10%;
-}
-
-.wrapper button:hover {
+    font-size: 70px;
     color: orange;
-    transition-timing-function: ease;
+
 }
 
-.wrapper button {
-    font-size: 75px;
-    border: none;
-    font-family: 'Shadows Into Light', cursive;
-    color: black;
-    text-align: center;
-    padding-top: 0%;
-    background-color: #e6e6e6;
+section {
+    padding: 20px;
+    padding-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: whitesmoke;
 }
 
-.wrapper h3 {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-    font-size: 20px;
-    color: black;
-    text-align: left;
+section h1 {
+    font-size: 70px;
+    padding-bottom: 5%;
 }
 
-.wrapper div {
-    background-color: #e6e6e6;
-    text-decoration: none;
+section ul {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    justify-content: space-evenly;
+
+}
+
+section ul li {
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section ul li.active {
+    background: #1c52a6;
+    color: #fff;
+}
+
+.list {
+    color: orange;
+}
+
+.list:hover {
+    background-color: #1c52a6;
+}
+
+.items {
+    background-color: #1c52a6;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    justify-content: space-between;
+    width: 100%;
     border-radius: 20px;
 }
 
-.wrapper img {
-    padding-bottom: 10%;
+
+.items .itembox {
+    position: relative;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.work {
-    margin-top: 10%;
+.itembox img {
+    top: 0;
+    left: 0;
+    width: 263px;
+    height: 237px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
-.play {
-    margin-top: 10%;
+.box-img-wrapper {
+    display: inline-block;
+}
+
+.hover-active {
+    background-color: #1c52a6;
 }
 
 /*Calendar section*/
@@ -371,7 +400,6 @@ span.lid {
     display: flex;
     justify-content: space-around;
     padding-bottom: 70px;
-    margin-top: 50px;
 }
 
 
@@ -412,31 +440,31 @@ span.lid {
     margin: 20px;
 }
 
-.items {
+.kalender {
     padding-left: 10px;
 }
 
-.items h1 {
+.kalender h1 {
     margin-top: 50px;
 }
 
-.items h3 {
+.kalender h3 {
     font-size: 20px;
     margin-bottom: auto;
 }
 
-.items p {
+.kalender p {
     font-size: 18px;
     margin-top: auto;
 }
 
-.items h1 span {
+.kalender h1 span {
     font-family: 'Shadows Into Light', bold;
     font-size: 35px;
 
 }
 
-.items a {
+.kalender a {
     text-decoration: none;
     color: white;
     background-color: orange;
@@ -445,7 +473,7 @@ span.lid {
     font-weight: bold;
 }
 
-.item-1 h1 {
+.kal-1 h1 {
     margin-top: auto;
 }
 
@@ -458,6 +486,17 @@ span.lid {
     margin-top: 0;
     display: flex;
     justify-content: space-between;
+}
+
+.contact h4 {
+    border: 2px black solid;
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
+}
+
+.contact a {
+    text-decoration: none;
 
 }
 
@@ -465,6 +504,7 @@ span.lid {
     font-size: 27px;
     font-family: 'Shadows Into Light', cursive;
 }
+
 
 .contact,
 .social,

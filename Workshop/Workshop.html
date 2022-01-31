@@ -22,8 +22,8 @@
         </div>
         <div><img src="./../Images/ScribbleLogoArtboard 1.png" alt=""> </div>
         <div class="right-header">
-            <a href="./../gallerij.html">Gallerij</a>
-            <a href="./../Contactpagina/Contact.html">Contact</a>
+            <a href="./../gallerij.html">Video's</a>
+            <a href="./../Workshop/Workshop.html#agenda">Agenda</a>
         </div>
     </div>
     <div class="main">
@@ -117,25 +117,78 @@
             </div>
         </div>
     </div>
-    <div class="wrapper">
-        <div data-aos="fade-up-left">
-            <div class="think" id="think">
-                <h1><button onclick="thinkButton()">Think</button></h1>
-                <div class="wrapper-img"><img src="./../Images/Lightbulb_Drawing.png" alt=""></div>
+    <section>
+
+        <div data-aos="zoom-in" data-aos-offset="300">
+            <div class="hoofd">
+                <h1>Gal<span>lerij</span></h1>
+            </div>
+            <ul>
+                <li class="list" data-filter="Bikkenstad">Bikkenstad</li>
+                <li class="list" data-filter="Schaal-wauwman">Schaal wauwman</li>
+                <li class="list" data-filter="Droomhuizen">Droomhuizen</li>
+                <li class="list" data-filter="Zomercafé">Zomercafé</li>
+                <li class="list" data-filter="Betonvorm">Betonvorm</li>
+                <li class="list" data-filter="Urban-legends">Urban legends</li>
+                <li class="list" data-filter="Rebag">Rebag</li>
+            </ul>
+        </div>
+
+        <div class="items">
+            <div class="itembox Bikkenstad Alles" style="display: none;">
+                <img src="./../Images/Project Images/01_bikkenstad/BovenaanzichtZOOM2.jpg">
+                <img src="./../Images/Project Images/01_bikkenstad/DSCN9196.JPG">
+                <img src="./../Images/Project Images/01_bikkenstad/zijaanzicht ruim.JPG">
+                <img src="./../Images/Project Images/01_bikkenstad/Bovenaanzicht2.jpg">
+            </div>
+
+            <div class="itembox Schaal-wauwman Alles" style="display: none;">
+                <img
+                    src="./../Images/Project Images/02_schaal wauwman/10636194_551920294910117_289188751717140465_n.jpg">
+                <img
+                    src="./../Images/Project Images/02_schaal wauwman/10686854_551920368243443_4529588136735838522_n.jpg">
+                <img
+                    src="./../Images/Project Images/02_schaal wauwman/1939510_551920214910125_6520315219772783844_n.jpg">
+                <img
+                    src="./../Images/Project Images/02_schaal wauwman/10712885_551919914910155_7887782638084025154_n.jpg">
+            </div>
+
+            <div class="itembox Droomhuizen Alles" style="display: none;">
+                <img src="./../Images/Project Images/03_droomhuizen/Droomhuis_1.jpg">
+                <img src="./../Images/Project Images/03_droomhuizen/Droomhuis_2.jpg">
+                <img src="./../Images/Project Images/03_droomhuizen/Droomhuis-09.jpg">
+                <img src="./../Images/Project Images/03_droomhuizen/DSC03522.JPG">
+            </div>
+
+            <div class="itembox Zomercafé Alles" style="display: none;">
+                <img src="./../Images/Project Images/04_zomercafé/zomercafé_6.jpg">
+                <img src="./../Images/Project Images/04_zomercafé/zomercafé_5.jpg">
+                <img src="./../Images/Project Images/04_zomercafé/zomercafé_3.jpg">
+                <img src="./../Images/Project Images/04_zomercafé/zomercafé_4.jpg">
+            </div>
+
+            <div class="itembox Betonvorm Alles" style="display: none;">
+                <img src="./../Images/Project Images/05_Betonvorm/WAUW BETON6.jpg">
+                <img src="./../Images/Project Images/05_Betonvorm/Beton_4.jpg">
+                <img src="./../Images/Project Images/05_Betonvorm/WAUW BETON12.jpg">
+                <img src="./../Images/Project Images/05_Betonvorm/WAUW BETON10.jpg">
+            </div>
+
+            <div class="itembox Urban-legends Alles" style="display: none;">
+                <img src="./../Images/Project Images/06_urban legends/urbanledgends_1.jpg">
+                <img src="./../Images/Project Images/06_urban legends/urbanledgends_3.jpg">
+                <img src="./../Images/Project Images/06_urban legends/urbanledgends_2.jpg">
+                <img src="./../Images/Project Images/06_urban legends/urbanledgends_12.jpg">
+            </div>
+
+            <div class="itembox Rebag Alles" style="display: none;">
+                <img src="./../Images/Project Images/07_rebag/Zakken_1.jpg">
+                <img src="./../Images/Project Images/07_rebag/Zakken_2.jpg">
+                <img src="./../Images/Project Images/07_rebag/Zakken_3.jpg">
             </div>
         </div>
-        <div data-aos="fade-up-left">
-            <div class="work" id="work">
-                <h1><button onclick="workButton()">Work</button></h1><img src="./../Images/OfficeStuff_Drawing.png"
-                    alt="">
-            </div>
-        </div>
-        <div data-aos="fade-up-left">
-            <div class="play" id="play">
-                <h1><button onclick="playButton()">Play</button></h1><img src="./../Images/playing_drawing.png" alt="">
-            </div>
-        </div>
-    </div>
+    </section>
+
     <div class="events">
         <div data-aos="fade-right">
             <div class="content">
@@ -146,9 +199,9 @@
                 </p>
             </div>
         </div>
-        <div class="kalender">
+        <div class="kalender" id="agenda">
             <div class="scroll-calendar">
-                <div class="items item-1">
+                <div class="kal-1">
                     <div>
                         <div>
                             <h1>FEB <span>9</span></h1>
@@ -164,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="items item-2">
+                <div class="kal-2">
                     <div>
                         <div>
                             <h1>MAA <span>16</span></h1>
@@ -180,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="items item-3">
+                <div class="kal-3">
                     <div>
                         <div>
                             <h1>MAA <span>17</span></h1>
@@ -195,7 +248,7 @@
                         <div><a href="https://teachup2030.be/" target="_blank">Meer Info</a></div>
                     </div>
                 </div>
-                <div class="items item-4">
+                <div class="kal-4">
                     <div>
                         <div>
                             <h1>Op <span>aanvraag</span></h1>
@@ -223,7 +276,9 @@
         </div>
         <div class="contact">
             <h2>Vragen ? </h2>
-            <h4>Neem contact met ons op</h4>
+            <a href="./../Contactpagina/Contact.html" target="_blank">
+                <h4>Neem contact met ons op</h4>
+            </a>
             <p>wauw.workshops@gmail.com</p>
             <p>+32499325184 (Lotte)</p>
             <p>+32497145867 (Stephanie)</p>
@@ -276,28 +331,22 @@
     </script>
 </body>
 
-<script>
-    function thinkButton() {
-        var x = document.getElementById("think");
-        x.innerHTML =
-            "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
-            "<div class=" + "wrapper-img" + "><img src=" + "./../Images/think_image.png" + " alt=" + "" + "></div>";
-    }
+<script type="text/javascript">
+    $(document).ready(function () {
 
-    function workButton() {
-        var x = document.getElementById("work");
-        x.innerHTML =
-            "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
-            "<div class=" + "wrapper-img" + "><img src=" + "./../Images/work_image.png" + " alt=" + "" + "></div>";
-    }
-
-    function playButton() {
-        var x = document.getElementById("play");
-        x.innerHTML =
-            "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
-            "<div class=" + "wrapper-img" + "><img src=" + "./../Images/play_image.png" + " alt=" + "" + "></div>";
-
-    }
+        $('.list').click(function () {
+            const value = $(this).attr('data-filter');
+            if (value == 'Alles') {
+                $('.itembox').show('1000');
+            } else {
+                $('.itembox').not('.' + value).hide('1000');
+                $('.itembox').filter('.' + value).show('1000');
+            }
+        })
+        $('.list').click(function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    })
 </script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
