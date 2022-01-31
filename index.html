@@ -20,14 +20,15 @@
         <div> <a href="#"><img src="Images/ScribbleLogoArtboard 1.png" alt=""></a>
         </div>
         <div class="right-header">
-            <a href="gallerij.html">Gallerij</a>
-            <a href="Contactpagina/Contact.html">Contact</a>
+            <a href="gallerij.html">Video's</a>
+            <a href="Workshop/Workshop.html#agenda">Agenda</a>
         </div>
     </div>
 
+    <!--HEADER-->
     <div class="main" id="home">
         <div class="slider">
-            <img src="Images/BovenaanzichtZOOM2.jpg" alt="">
+            <iframe src="https://www.youtube.com/embed/imoqx5L13y4" autoplay allowfullscreen></iframe>
         </div>
         <div data-aos="flip-left">
             <div class="text">
@@ -40,6 +41,8 @@
             </div>
         </div>
     </div>
+
+    <!--Section info about workshops-->
     <div class="wrapper">
         <div data-aos="fade-right">
             <div class="content">
@@ -62,6 +65,22 @@
         </div>
     </div>
 
+    <!--THINK,WORK AND PLAY-->
+    <div data-aos="fade-left">
+
+        <div class="wrapper-think">
+            <div class="think" id="think">
+                <h1><button onclick="thinkButton()">Think</button></h1>
+                <div class="wrapper-img"><img src="./../Images/think-img.png" alt=""></div>
+            </div>
+            <div class="work" id="work">
+                <h1><button onclick="workButton()">Work</button></h1><img src="./../Images/work.png" alt="">
+            </div>
+            <div class="play" id="play">
+                <h1><button onclick="playButton()">Play</button></h1><img src="./../Images/play.png" alt="">
+            </div>
+        </div>
+    </div>
     <div class="inschrijving">
         <div class="context">
             <h1>Wordt nu <span class="lid">WAUW</span>-lid</h1>
@@ -102,7 +121,9 @@
         </div>
         <div class="contact">
             <h2>Vragen ? </h2>
-            <h4>Neem contact met ons op</h4>
+            <a href="Contactpagina/Contact.html" target="_blank">
+                <h4>Neem contact met ons op</h4>
+            </a>
             <p><a href="mailto:">wauw.workshops@gmail.com</a></p>
             <p><a href="tel:">+32499325184</a> (Lotte)</p>
             <p><a href="tel:+32497145867">+32497145867</a> (Stephanie)</p>
@@ -133,9 +154,33 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            offset: 400,
+            offset: 350,
             duration: 1000
         });
+    </script>
+
+    <script>
+        function thinkButton() {
+            var x = document.getElementById("think");
+            x.innerHTML =
+                "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
+                "<div class=" + "wrapper-img" + "><img src=" + "./../Images/think_image.png" + " alt=" + "" + "></div>";
+        }
+
+        function workButton() {
+            var x = document.getElementById("work");
+            x.innerHTML =
+                "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
+                "<div class=" + "wrapper-img" + "><img src=" + "./../Images/work_image.png" + " alt=" + "" + "></div>";
+        }
+
+        function playButton() {
+            var x = document.getElementById("play");
+            x.innerHTML =
+                "<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta veritatis perferendis velit tempore, a nesciunt magnam perspiciatis sit fuga rem quaerat commodi est facere aliquid, quisquam quis? Ducimus, quaerat enim.</h3>" +
+                "<div class=" + "wrapper-img" + "><img src=" + "./../Images/play_image.png" + " alt=" + "" + "></div>";
+
+        }
     </script>
 </body>
 

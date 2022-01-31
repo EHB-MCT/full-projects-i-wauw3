@@ -96,11 +96,12 @@ span.wauw-text {
     margin-left: 30px;
 }
 
-.slider img {
-    object-fit: cover;
-    width: 500px;
-    border-radius: 20px;
+.slider iframe {
+    width: 560px;
+    height: 320px;
+    border: none;
 }
+
 
 /*Workshop introductory section*/
 .wrapper {
@@ -122,7 +123,6 @@ span.crea {
 }
 
 span.tief {
-    color: orange;
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -147,6 +147,64 @@ span.tief {
     font-size: 18px;
     color: white;
 }
+
+/*Think work play section*/
+.wrapper-think {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrapper-think h1 {
+    font-size: 75px;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+}
+
+.wrapper-think button:hover {
+    color: orange;
+    transition-timing-function: ease;
+}
+
+.wrapper-think button {
+    font-size: 75px;
+    border: none;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+    background-color: #e6e6e6;
+}
+
+.wrapper-think h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.wrapper-think div {
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.wrapper-think img {
+    padding-bottom: 10%;
+    width: 30%;
+}
+
+.work,
+.play,
+.think {
+    padding-top: 3%;
+    width: 30%;
+}
+
 
 /*Subscribe section*/
 .image-s img {
@@ -190,6 +248,13 @@ span.tief {
     display: flex;
     justify-content: space-between;
 
+}
+
+.contact h4 {
+    border: 2px black solid;
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
 }
 
 .footer-info h2 {
