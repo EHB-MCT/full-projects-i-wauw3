@@ -39,7 +39,7 @@ body {
 .header a {
     font-family: 'Shadows Into Light', cursive;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
     margin-left: 70px;
     margin-right: 70px;
@@ -244,9 +244,9 @@ span.tief {
 /*Subscribe section*/
 .image-s img {
     object-fit: cover;
-    margin-top: 50px;
+    margin-top: 47px;
+    margin-right: -17px;
     width: 520px;
-    border-radius: 20px;
 }
 
 .button {
@@ -395,7 +395,7 @@ span.lid {
 
 .inschrijving-box div {
     transition: all 1s;
-    background-color: #1c52a6;
+    background-color: orange;
     border: 2px solid #1c52a6;
     height: 120px;
 }
@@ -434,7 +434,7 @@ span.lid {
 
 
 .left-header a:hover {
-    color: #1c52a6;
+    color: orange;
     transition-timing-function: ease;
 }
 
