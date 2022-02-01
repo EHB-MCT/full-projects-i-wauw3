@@ -209,7 +209,7 @@ span.tief {
     font-size: 75px;
     border: none;
     font-family: 'Shadows Into Light', cursive;
-    color: black;
+    color: #1c52a6;
     text-align: center;
     background-color: #e6e6e6;
 }
@@ -498,7 +498,7 @@ span.lid {
 
     .outerwrapper p {
         color: white;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .work,
