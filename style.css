@@ -662,6 +662,52 @@ span.lid {
     }
 }
 
+@media (max-width:432px) {
+    .wrapper {
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
+    .image-s img {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .wrapper-think {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .think,
+    .play,
+    .work {
+        margin-bottom: 10%;
+        width: 68%;
+    }
+
+    .wrapper h1,
+    .main h1,
+    .outerwrapper h1 {
+        font-size: 35px;
+    }
+
+    .inschrijving h1 {
+        margin-left: 0;
+    }
+
+    .inschrijving p {
+        text-align: left;
+    }
+
+    .slider {
+        margin-left: 15%;
+        width: 70%;
+    }
+}
 
 @media (max-width:426px) {
     .wrapper {
@@ -703,8 +749,18 @@ span.lid {
     .inschrijving p {
         text-align: left;
     }
+
+    .slider {
+        margin-left: 15%;
+        width: 70%;
+    }
 }
 
+@media (max-width:382px) {
+    .inschrijving h1 {
+        font-size: 30px;
+    }
+}
 
 @media (max-width:321px) {
 
@@ -728,6 +784,12 @@ span.lid {
 
     .button a {
         padding: 4px 15px;
+    }
+
+
+
+    .inschrijving p {
+        margin-left: 8%;
     }
 
 }
