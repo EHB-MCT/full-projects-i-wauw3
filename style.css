@@ -19,28 +19,23 @@ body {
 /*Navigation*/
 .header img {
     width: 300px;
-    top: 10px;
-    left: 30px;
     position: relative;
 }
 
 .header {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: white;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    background-image: url(Images/cuttingmarbackground.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: white;
 }
 
 .header a {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Public Sans', sans-serif;
     text-decoration: none;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 20px;
     margin-left: 70px;
     margin-right: 70px;
     font-weight: bold;
@@ -50,11 +45,9 @@ body {
 .main {
     margin-left: 20px;
     margin-right: 20px;
-    background-image: url(Images/cuttingmarbackground.png);
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 60px;
-    background-position: center;
+    background-color: orange;
+    padding-top: 3%;
+    padding-bottom: 6%;
 
 }
 
@@ -65,10 +58,8 @@ body {
 
 .text {
     text-align: left;
-    margin-left: 200px;
-    line-height: 30px;
+    line-height: 20px;
     color: white;
-    margin-right: 110px;
 }
 
 .text h1 {
@@ -97,12 +88,15 @@ span.wauw-text {
 }
 
 .slider {
-    margin-left: 30px;
+    padding-top: 2%;
+    margin-left: 6%;
+    width: 38%;
+    height: 40%;
 }
 
 .slider video {
-    width: 560px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -151,15 +145,23 @@ span.tief {
     color: white;
 }
 
+.image-s {
+    padding-top: 6%;
+    width: 40%;
+}
+
+.image-s img {
+    width: 85%;
+}
+
 /*Think work play section*/
 
 .outerwrapper {
     background-color: whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
-    background-image: url(Images/cuttingmarbackground.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: orange;
+    line-height: 25px;
 }
 
 .outerwrapper h1 {
@@ -172,9 +174,8 @@ span.tief {
 
 .outerwrapper p {
     text-align: center;
-    font-size: 18px;
-    line-height: 0px;
-    color: orange;
+    font-size: 25px;
+    color: white;
 }
 
 .outerwrapper span {
@@ -236,18 +237,12 @@ span.tief {
 .play,
 .think {
     padding-top: 3%;
-    width: 30%;
+    width: 25%;
 }
-
 
 
 /*Subscribe section*/
-.image-s img {
-    object-fit: cover;
-    margin-top: 47px;
-    margin-right: -17px;
-    width: 520px;
-}
+
 
 .button {
     padding-bottom: 100px;
@@ -278,7 +273,6 @@ span.tief {
     background-color: whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
-    height: 250px;
     margin-top: 0;
     display: flex;
     justify-content: space-between;
@@ -346,12 +340,13 @@ span.tief {
     background-image: url(Images/cuttingmarbackground.png);
     background-repeat: no-repeat;
     background-position: center;
+    line-height: 27px;
 }
 
 
 .inschrijving h1 {
     margin-left: 50px;
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     margin-top: 0px;
     text-align: center;
@@ -359,8 +354,9 @@ span.tief {
 }
 
 .inschrijving p {
+    padding-top: 18px;
     margin-left: 50px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-align: center;
 
@@ -449,14 +445,159 @@ span.lid {
     transition-timing-function: ease;
 }
 
-@media (max-width:768px) {
 
-    body,
-    html {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+
+@media (max-width:1024px) {
+
+
+    .text {
+        text-align: left;
+    }
+
+    .slider {
+        padding-top: 3%;
+        width: 40%;
+    }
+
+    .main h1 {
+        font-size: 50px;
+    }
+
+    .main h3 {
+        font-size: 18px;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .image-s img {
+        padding-top: 10%;
+        width: 90%;
+    }
+
+    .outerwrapper h1 {
+        font-size: 50px;
+    }
+
+    .outerwrapper p {
+        color: white;
+        font-size: 20px;
+    }
+
+    .work,
+    .play,
+    .think {
+        width: 23%;
+    }
+
+    .contact h4 {
+        font-size: 13px;
+    }
+
+    .contact,
+    .social,
+    .wauw,
+    .samenwerking {
+        line-height: 23px;
+    }
+
+    .inschrijving h1 {
+        font-size: 50px;
+    }
+
+    .inschrijving {
+        line-height: 20px;
+    }
+
+    .inschrijving p {
+        font-size: 18px;
+    }
+
+    .header img {
+        width: 250px;
+    }
+
+    .header a {
+        margin-left: 0px;
+    }
+
+    .left-header {
+        margin-left: 70px;
+    }
+}
+
+
+@media (max-width:940px) {
+    .footer-info {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .samenwerking {
+        width: 250px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .header img {
+        width: 180px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .main .text {
+        text-align: center;
+    }
+
+    .slider {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .wrapper {
+        line-height: 20px;
+        flex-direction: row-reverse;
+    }
+
+    .image-s {
+        width: 50%;
+        padding-left: 2%;
+        padding-top: 11%;
+    }
+
+    .wrapper .button {
+        padding-bottom: 30px;
+    }
+
+    .outerwrapper p {
+        font-size: 15px;
+    }
+
+    .wrapper-think button {
+        font-size: 50px;
+    }
+
+    .context p {
+        font-size: 15px;
+    }
+
+    .inschrijving-box {
+        line-height: 25px;
     }
 }
