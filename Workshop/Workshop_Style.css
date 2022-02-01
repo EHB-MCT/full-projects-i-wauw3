@@ -695,3 +695,52 @@ span.lid {
         width: 56%;
     }
 }
+
+@media (max-width:426px) {
+
+    .list-gal {
+        margin-left: 10%;
+    }
+
+    .content h1,
+    .hoofd h1,
+    .hoofd h1 span {
+        font-size: 35px;
+    }
+
+    .content p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .kalender {
+        margin-left: 4%;
+    }
+
+    .items {
+        margin-top: 10%;
+    }
+
+    .itembox img {
+        width: 20%;
+        height: 100px;
+    }
+
+
+}
+
+
+@media (max-width:321px) {
+    .list-gal {
+        padding-top: 10%;
+        width: 75%;
+        margin-left: 1%;
+        padding-bottom: 10%;
+
+    }
+
+    .itembox img {
+        width: 20%;
+        height: 70px;
+    }
+}

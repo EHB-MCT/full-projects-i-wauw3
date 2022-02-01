@@ -429,7 +429,7 @@ span.lid {
 
 
 .left-header a:hover {
-    color: orange;
+    color: #1c52a6;
     transition-timing-function: ease;
 }
 
@@ -614,4 +614,120 @@ span.lid {
     .inschrijving-box {
         line-height: 25px;
     }
+}
+
+
+@media (max-width:680px) {
+
+    .main h1 {
+        font-size: 40px;
+
+    }
+
+    .wrapper {
+        align-items: center;
+    }
+
+    .wrapper h1 {
+        font-size: 40px;
+    }
+
+    .wrapper h2 {
+        font-size: 18px;
+    }
+
+    .wrapper p {
+        font-size: 15px;
+    }
+
+
+
+    .button a {
+        margin-bottom: 2%;
+    }
+
+    .image-s {
+        padding-top: 0;
+        width: 50%;
+    }
+
+    .outerwrapper h1 {
+        font-size: 40px;
+
+    }
+
+    .context h1 {
+        font-size: 40px;
+
+    }
+}
+
+
+@media (max-width:426px) {
+    .wrapper {
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
+    .image-s img {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .wrapper-think {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .think,
+    .play,
+    .work {
+        margin-bottom: 10%;
+        width: 68%;
+    }
+
+    .wrapper h1,
+    .main h1,
+    .outerwrapper h1 {
+        font-size: 35px;
+    }
+
+    .inschrijving h1 {
+        margin-left: 0;
+    }
+
+    .inschrijving p {
+        text-align: left;
+    }
+}
+
+
+@media (max-width:321px) {
+
+    .wrapper h1,
+    .main h1,
+    .outerwrapper h1,
+    .context h1 {
+        font-size: 30px;
+    }
+
+    .main h3 {
+        font-size: 15px;
+    }
+
+    .wrapper p,
+    .main p,
+    .outerwrapper p,
+    .context p {
+        font-size: 13px;
+    }
+
+    .button a {
+        padding: 4px 15px;
+    }
+
 }

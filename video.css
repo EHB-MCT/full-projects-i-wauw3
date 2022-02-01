@@ -119,3 +119,24 @@
     margin-top: 0px;
 
 }
+
+@media (max-width:768px) {
+
+    .heading h1,
+    .heading span {
+        font-size: 50px;
+
+    }
+
+
+}
+
+@media (max-width:325px) {
+    .container .main-video .title {
+        font-size: 18px;
+    }
+
+    .container .video-list .vid .title {
+        font-size: 15px;
+    }
+}
