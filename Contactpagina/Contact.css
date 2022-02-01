@@ -200,3 +200,53 @@ section {
     color: orange;
     transition-timing-function: ease;
 }
+
+
+@media (max-width:1024px) {
+    .header img {
+        width: 250px;
+    }
+
+    .header a {
+        margin-left: 0px;
+    }
+
+    .left-header {
+        margin-left: 70px;
+    }
+
+
+    .container {
+        min-width: 900px;
+        min-height: 538px;
+    }
+}
+
+
+@media (max-width:960px) {
+    .container {
+        min-width: 800px;
+        min-height: 538px;
+    }
+}
+
+@media (max-width:868px) {
+    .container {
+        min-width: 800px;
+        min-height: 538px;
+    }
+}
+
+@media (max-width:768px) {
+    .header img {
+        width: 180px;
+    }
+
+    .header a {
+        margin-left: 70px;
+    }
+
+    .left-header {
+        margin-left: 10px;
+    }
+}

@@ -143,18 +143,53 @@ body {
 }
 
 
+@media (max-width:940px) {
+    .footer-info {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .samenwerking {
+        width: 250px;
+    }
+}
+
+@media (max-width:1024px) {
+    .header img {
+        width: 250px;
+    }
+
+    .header a {
+        margin-left: 0px;
+    }
+
+    .left-header {
+        margin-left: 70px;
+    }
+
+    .contact,
+    .social,
+    .wauw,
+    .samenwerking {
+        line-height: 23px;
+    }
+
+}
+
 @media (max-width:768px) {
 
-    html,
-    body {
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-    }
 
 
-    .footer-info {
-        display: block;
-        align-items: center;
+    .header img {
+        width: 180px;
     }
+
+    .header a {
+        margin-left: 70px;
+    }
+
+    .left-header {
+        margin-left: 10px;
+    }
+
 }
