@@ -591,12 +591,12 @@ span.lid {
 
 
     .text h1 {
-        margin-left: -25%;
+        margin-left: 23%;
         font-size: 50px;
     }
 
     .text p {
-        margin-left: -25%;
+        margin-left: -1%;
         font-size: 16px;
         font-weight: normal;
     }
@@ -687,9 +687,9 @@ span.lid {
 
 @media (max-width:768px) {
     .text {
-        padding-top: 15%;
+        padding-top: 3%;
         width: 50%;
-        margin-left: 40%;
+
         margin-bottom: -40%;
     }
 
@@ -756,6 +756,31 @@ span.lid {
         margin-left: 20%;
         width: 56%;
     }
+
+    .text h1 {
+        text-align: center;
+        margin-left: -13%;
+        font-size: 50px;
+    }
+
+    .text h1 span {
+        font-size: 50px;
+    }
+
+    .text p {
+        margin-left: -1%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-bottom: 30%;
+    }
+
+    .legende {
+        display: none;
+    }
+
+
+
+
 }
 
 @media (max-width:426px) {
