@@ -8,6 +8,19 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: orange;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c52a6;
+}
+
 .header {
     margin-left: 20px;
     margin-right: 20px;
