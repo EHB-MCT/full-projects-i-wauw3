@@ -15,6 +15,20 @@ body {
     padding: 0;
 }
 
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: orange;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c52a6;
+}
+
+
 
 /*Navigation*/
 .header img {

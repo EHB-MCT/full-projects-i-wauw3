@@ -4,7 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Domine:wght@700&family=Inter:wght@300;400;600&family=Public+Sans&family=Roboto&family=Shadows+Into+Light&display=swap');
 
 
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 15px;
+}
 
+::-webkit-scrollbar-track {
+    background: orange;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c52a6;
+}
 
 /*Whole page*/
 html {
