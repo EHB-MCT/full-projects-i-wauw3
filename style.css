@@ -124,7 +124,7 @@ span.tief {
 }
 
 .wrapper h2 {
-    padding-top: 100px;
+    padding-top: 7%;
     margin-left: 30px;
     font-size: 25px;
     color: white;
@@ -349,7 +349,7 @@ span.tief {
     color: white;
     margin-top: 0px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 .inschrijving p {
@@ -488,7 +488,6 @@ span.lid {
     }
 
     .image-s img {
-        padding-top: 10%;
         width: 90%;
     }
 
@@ -896,6 +895,7 @@ span.lid {
     .outerwrapper p,
     .context p {
         font-size: 13px;
+        padding-right: 5%;
     }
 
     .button a {
@@ -908,4 +908,24 @@ span.lid {
         margin-left: 8%;
     }
 
+    .wauw-vol {
+        width: 100px;
+
+    }
+
+    .inschrijving-box h3 {
+        font-size: 18px;
+    }
+
+    .inschrijving-box div {
+        height: 90px;
+    }
+
+    .wrapper-think button {
+        font-size: 30px;
+    }
+
+    .inschrijving-box {
+        margin-top: 2px;
+    }
 }
