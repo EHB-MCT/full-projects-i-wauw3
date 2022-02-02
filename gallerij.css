@@ -301,4 +301,28 @@ body {
         width: 22%;
     }
 
+    .footer-info h2 {
+        font-size: 20px;
+    }
+
+    .footer-info p {
+        font-size: 14px;
+    }
+
+    .contact h4 {
+        font-size: 14px;
+    }
+
+    .social img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact,
+    .social,
+    .wauw,
+    .samenwerking {
+        padding-top: 10%;
+    }
+
 }

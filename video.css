@@ -138,4 +138,21 @@
     .container .video-list .vid .title {
         font-size: 15px;
     }
+
+    .heading h1,
+    .heading span {
+        font-size: 35px;
+
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .heading h1,
+    .heading span {
+        font-size: 35px;
+
+    }
+
 }

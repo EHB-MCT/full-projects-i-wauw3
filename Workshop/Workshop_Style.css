@@ -883,16 +883,62 @@ span.lid {
 
     .itembox img {
         width: 20%;
-        height: 70px;
+        height: 47px;
     }
 
-    .topnav {
-        padding-bottom: 10%;
-    }
 
     .topnav img {
         padding-top: 3%;
         width: 22%;
+    }
+
+    .text h1 {
+        padding-top: 7%;
+        margin-left: -180%;
+        font-size: 35px;
+
+    }
+
+    .text h1 span {
+        font-size: 35px;
+    }
+
+    .text p {
+        margin-left: -160%;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-bottom: 30%;
+    }
+
+    .legende {
+        display: none;
+    }
+
+    .footer-info h2 {
+        font-size: 20px;
+    }
+
+    .footer-info p {
+        font-size: 14px;
+    }
+
+    .contact h4 {
+        font-size: 14px;
+    }
+
+    .social img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact,
+    .social,
+    .wauw,
+    .samenwerking {
+        padding-top: 10%;
     }
 
 }
