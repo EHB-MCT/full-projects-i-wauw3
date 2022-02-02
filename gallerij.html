@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="video.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
 <body>
-    <div class="header">
-        <div class="left-header">
-            <a href="index.html">Home</a>
-            <a href="Workshop/Workshop.html">Workshops</a>
+    <div class="topnav">
+        <img src="Images/logo-new.png" alt="">
+        <div id="myLinks">
+            <ul class="links">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Workshop/Workshop.html">Workshops</a></li>
+                <li> <a href="gallerij.html">Video's</a></li>
+                <li> <a href="Workshop/Workshop.html#agenda">Agenda</a></li>
+            </ul>
         </div>
-        <div> <img src="Images/ScribbleLogoArtboard.png" alt="">
-        </div>
-        <div class="right-header">
-            <a href="gallerij.html">Video's</a>
-            <a href="Workshop/Workshop.html#agenda">Agenda</a>
-        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
     <!--WAUW Tube-->
     <div class="heading">
@@ -125,6 +129,16 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
     </script>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

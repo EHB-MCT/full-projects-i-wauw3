@@ -7,22 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WAUWworkshops</title>
     <link rel="Stylesheet" href="style.css">
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <div class="header">
-        <div class="left-header">
-            <a href="index.html">Home</a>
-            <a href="Workshop/Workshop.html">Workshops</a>
+    <div class="topnav">
+        <img src="Images/logo-new.png" alt="">
+        <div id="myLinks">
+            <ul class="links">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Workshop/Workshop.html">Workshops</a></li>
+                <li> <a href="gallerij.html">Video's</a></li>
+                <li> <a href="Workshop/Workshop.html#agenda">Agenda</a></li>
+            </ul>
         </div>
-        <div> <img src="Images/ScribbleLogoArtboard.png" alt="">
-        </div>
-        <div class="right-header">
-            <a href="gallerij.html">Video's</a>
-            <a href="Workshop/Workshop.html#agenda">Agenda</a>
-        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <!--HEADER-->
@@ -176,6 +179,17 @@
                 "<p>Op het einde vieren we met het gerealiseerde resultaat om samen te genieten na een traject van ontmoetingen, brainstorming, samenwerken en discussie. De ontwerpen worden meteen in gebruik genomen en trots getoond aan iedereen, life of via een naslagwerk van foto, audio of video!</p>" +
                 "<div class=" + "wrapper-img" + "><img src=" + "Images/play_image.png" + " alt=" + "" + "></div>";
 
+        }
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
         }
     </script>
 </body>

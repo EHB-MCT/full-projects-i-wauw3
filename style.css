@@ -553,10 +553,54 @@ span.lid {
     .samenwerking {
         width: 250px;
     }
+
 }
 
 
 @media (max-width:768px) {
+    .topnav {
+        overflow: hidden;
+        background-color: whitesmoke;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav img {
+        margin-left: 2%;
+        width: 15%;
+    }
+
+    .topnav a {
+        font-weight: bold;
+        color: orange;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: whitesmoke;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #1c52a6;
+        color: orange;
+    }
+
+    .active {
+        background-color: whitesmoke;
+        color: white;
+    }
 
     .header img {
         width: 180px;
@@ -613,6 +657,69 @@ span.lid {
 
     .inschrijving-box {
         line-height: 25px;
+    }
+
+    .work,
+    .play,
+    .think {
+        width: 40%;
+    }
+
+    .play {
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width:769px) {
+    .topnav img {
+        width: 20%;
+    }
+
+    .links {
+        display: flex;
+    }
+
+
+    .links a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .topnav {
+        text-align: center;
+
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav li {
+        display: inline-block;
+        margin-right: 20%;
+    }
+
+    .topnav #myLinks {
+        display: block !important;
+        border: 2px solid #1c52a6;
+        background-color: #1c52a6;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media (min-width:977px) {
+    .topnav li {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1100px) {
+    .topnav li {
+        font-size: 25px;
+        margin-left: 2%;
     }
 }
 
@@ -763,6 +870,14 @@ span.lid {
 }
 
 @media (max-width:321px) {
+    .topnav {
+        padding-bottom: 5%;
+    }
+
+    .topnav img {
+        padding-top: 3%;
+        width: 22%;
+    }
 
     .wrapper h1,
     .main h1,
