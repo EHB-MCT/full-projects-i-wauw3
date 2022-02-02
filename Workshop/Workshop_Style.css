@@ -597,7 +597,7 @@ span.lid {
     }
 
     .text p {
-        text-align: start;
+        margin-left: -25%;
         font-size: 16px;
         font-weight: normal;
     }
