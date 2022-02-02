@@ -770,6 +770,7 @@ span.lid {
 
     .links {
         display: flex;
+
     }
 
 
@@ -798,6 +799,7 @@ span.lid {
         background-color: #1c52a6;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 1%;
     }
 
 }
