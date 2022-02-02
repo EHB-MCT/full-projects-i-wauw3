@@ -113,8 +113,8 @@ body {
     margin-left: 2%;
     margin-top: -17%;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
     padding-right: 2%;
 }
 
@@ -128,6 +128,14 @@ body {
 
 .L3 {
     color: #ff931e;
+}
+
+.text h1 {
+    margin-left: -25%;
+}
+
+.text p {
+    text-align: start;
 }
 
 /*Owl-carousel*/
@@ -585,7 +593,7 @@ span.lid {
     }
 
     .text {
-        margin-left: 20%;
+
         margin-right: 0;
     }
 
