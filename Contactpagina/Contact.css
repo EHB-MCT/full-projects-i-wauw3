@@ -251,6 +251,11 @@ section {
         color: orange;
     }
 
+    ul.links {
+        color: orange;
+    }
+
+
     .active {
         background-color: whitesmoke;
         color: white;

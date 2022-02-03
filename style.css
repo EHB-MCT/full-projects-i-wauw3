@@ -564,18 +564,9 @@ span.lid {
         color: white;
     }
 
-    .header img {
-        width: 180px;
+    ul.links {
+        color: orange;
     }
-
-    .header a {
-        margin-left: 70px;
-    }
-
-    .left-header {
-        margin-left: 10px;
-    }
-
 
     .main {
         flex-direction: column-reverse;
