@@ -426,6 +426,17 @@ body {
     .card img {
         width: 80%;
     }
+
+    .card p {
+        margin-right: 0px;
+        font-size: 13px;
+        padding-bottom: 20px;
+
+    }
+
+    .card h1 {
+        font-size: 18px;
+    }
 }
 
 /* Gallery section*/
