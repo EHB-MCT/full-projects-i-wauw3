@@ -15,17 +15,18 @@ body {
     transition-timing-function: ease-in-out;
 }
 
+
 /* ScrollBar */
 ::-webkit-scrollbar {
     width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: orange;
+    background: #1c52a6;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1c52a6;
+    background: orange;
 }
 
 #contact {
