@@ -369,6 +369,10 @@ body {
     .card img {
         width: 80%;
     }
+
+    .main {
+        background-repeat: repeat;
+    }
 }
 
 @media (max-width:426px) {
@@ -1070,13 +1074,9 @@ span.lid {
     }
 
     .text p {
-        margin-left: -150%;
-        text-align: center;
-        padding-left: 20%;
-        padding-right: 50%;
+        text-align: left;
         font-size: 16px;
         font-weight: normal;
-        padding-bottom: 30%;
     }
 
     .legende {
