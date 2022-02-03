@@ -811,6 +811,10 @@ span.lid {
         font-size: 16px;
     }
 
+    .kalender h3 {
+        font-size: 18px;
+    }
+
 
 
 
@@ -983,4 +987,21 @@ span.lid {
         padding-top: 10%;
     }
 
+    .kalender h1 {
+        font-size: 30px;
+    }
+
+    .kalender h3 {
+        font-size: 18px;
+
+    }
+
+    .kalender p {
+        font-size: 16px;
+
+    }
+
+    .kalender a {
+        font-size: 16px;
+    }
 }

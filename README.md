@@ -19,6 +19,6 @@
 - Vaak afwezigheden door onder anderen Corona. (vaak met 3 van de 5 aanwezig)
 - Github aanvaardt geen grote bestanden -> Laatste dag veel tijd verloren.
 
-## gebruikte software en programeertalen
+## Gebruikte software en programeertalen
 - Adobe premiere/After effects/Illustator
 - Visual studio code (html, css en javascript)
