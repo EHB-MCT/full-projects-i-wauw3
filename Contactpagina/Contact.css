@@ -3,7 +3,6 @@
 body {
 
     padding: 0;
-    font-weight: 400;
     font-family: 'Public Sans', sans-serif;
 }
 
@@ -187,18 +186,6 @@ body {
 
 
 @media (max-width:1024px) {
-    .header img {
-        width: 250px;
-    }
-
-    .header a {
-        margin-left: 0px;
-    }
-
-    .left-header {
-        margin-left: 70px;
-    }
-
 
     .container {
         min-width: 900px;
@@ -242,7 +229,6 @@ body {
     }
 
     .topnav a {
-        font-weight: bold;
         color: orange;
         padding: 14px 16px;
         text-decoration: none;
@@ -265,6 +251,7 @@ body {
 
     ul.links {
         color: orange;
+        font-weight: bold;
     }
 
 
