@@ -21,12 +21,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: orange;
+    background: #1c52a6;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1c52a6;
+    background: orange;
 }
+
 
 #myLinks a {
     transition: color 0.8s;
