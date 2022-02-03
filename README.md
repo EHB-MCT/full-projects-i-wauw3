@@ -3,17 +3,22 @@
 [https://ehb-mct.github.io/full-projects-i-wauw3/index.html)
 # Groep: WAUW 3
 ### Groepsleden
-Adnan
-Alejandro
-Ilias
-Mikolaj
-Mohamed
+- Adnan Kazmierczyk  
+- Alejandro Mejia
+- Ilias Ômari
+- Mikolaj Buelens
+- Mohamed Mankouchi
 
 ## Website kenmerken
--carousel
--geanimeerde foto filter
--video zone
+- carousel
+- geanimeerde foto filter
+- video zone
+- volledig responsive
 
 ## Struikelblokken
-- Vaak afwezigheden door onder anderen Corona
-- Github aanvaardt geen grote bestanden -> Veel tijd mee verloren.
+- Vaak afwezigheden door onder anderen Corona. (vaak met 3 van de 5 aanwezig)
+- Github aanvaardt geen grote bestanden -> Laatste dag veel tijd verloren.
+
+## gebruikte software en programeertalen
+- Adobe premiere/After effects/Illustator
+- Visual studio code (html, css en javascript)
