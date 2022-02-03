@@ -28,14 +28,6 @@ body {
     background: #1c52a6;
 }
 
-#myLinks a {
-    transition: color 0.8s;
-}
-
-#myLinks a:hover {
-    color: orange;
-    transition-timing-function: ease-in-out;
-}
 
 /*First introduction section*/
 .main {
