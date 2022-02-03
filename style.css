@@ -409,30 +409,6 @@ span.lid {
 }
 
 
-/*Animation*/
-.left-header a {
-    transition: color .5s;
-}
-
-
-.left-header a:hover {
-    color: #1c52a6;
-    transition-timing-function: ease;
-}
-
-
-.right-header a {
-    transition: color .5s;
-}
-
-
-.right-header a:hover {
-    color: orange;
-    transition-timing-function: ease;
-}
-
-
-
 @media (max-width:1024px) {
 
     .wrapper-think .think p,
