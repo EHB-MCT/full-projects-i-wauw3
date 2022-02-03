@@ -501,6 +501,12 @@ span.lid {
         font-size: 18px;
     }
 
+    .inschrijving-box h3 {
+        padding-top: 10px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
     .header img {
         width: 250px;
     }
