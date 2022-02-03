@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap');
 
 body {
-    margin-right: 20px;
-    margin-left: 20px;
+
     padding: 0;
-    font-weight: 400;
     font-family: 'Public Sans', sans-serif;
 }
 
@@ -30,14 +28,18 @@ body {
     background: #1c52a6;
 }
 
-section {
+#contact {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100px;
     background-image: url(./../Images/cuttingmarbackground.png);
-    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .container {
@@ -47,7 +49,6 @@ section {
     display: flex;
     z-index: 1000;
     background: white;
-    box-shadow: 0px 0px 019px 5px rgba(0, 0, 0, 0.50);
     border: none;
     border-radius: 10px;
 }
@@ -185,18 +186,6 @@ section {
 
 
 @media (max-width:1024px) {
-    .header img {
-        width: 250px;
-    }
-
-    .header a {
-        margin-left: 0px;
-    }
-
-    .left-header {
-        margin-left: 70px;
-    }
-
 
     .container {
         min-width: 900px;
@@ -227,6 +216,7 @@ section {
         position: relative;
         margin-left: 20px;
         margin-right: 20px;
+        padding-bottom: 6%;
     }
 
     .topnav #myLinks {
@@ -239,7 +229,6 @@ section {
     }
 
     .topnav a {
-        font-weight: bold;
         color: orange;
         padding: 14px 16px;
         text-decoration: none;
@@ -262,6 +251,7 @@ section {
 
     ul.links {
         color: orange;
+        font-weight: bold;
     }
 
 
@@ -270,7 +260,37 @@ section {
         color: white;
     }
 
+    .container {
+        min-width: 550px;
+        min-height: 538px;
+    }
+
 }
+
+@media (max-width:619px) {
+    .container {
+        min-width: 400px;
+        min-height: 538px;
+    }
+}
+
+@media (max-width:426px) {
+    .container {
+        min-width: 300px;
+        min-height: 538px;
+    }
+
+    .container .contactform h2,
+    .container .contactform h2 span {
+        font-size: 30px;
+    }
+
+    .topnav {
+        padding-bottom: 10%;
+    }
+
+}
+
 
 @media (min-width:769px) {
     .topnav img {
@@ -307,6 +327,7 @@ section {
         background-color: #1c52a6;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 1%;
     }
 
 }
@@ -332,6 +353,18 @@ section {
     .topnav img {
         padding-top: 3%;
         width: 22%;
+    }
+
+    .container {
+        min-width: 250px;
+    }
+
+    .container .contactform {
+        margin-left: 20%;
+    }
+
+    .container .contactform .btn {
+        width: 100%;
     }
 
 }
