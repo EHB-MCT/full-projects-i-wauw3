@@ -8,6 +8,15 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+#myLinks a {
+    transition: color 0.8s;
+}
+
+#myLinks a:hover {
+    color: orange;
+    transition-timing-function: ease-in-out;
+}
+
 /* ScrollBar */
 ::-webkit-scrollbar {
     width: 15px;
@@ -250,6 +259,11 @@ section {
         background-color: #1c52a6;
         color: orange;
     }
+
+    ul.links {
+        color: orange;
+    }
+
 
     .active {
         background-color: whitesmoke;

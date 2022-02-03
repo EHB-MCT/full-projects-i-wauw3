@@ -19,6 +19,15 @@
 - Vaak afwezigheden door onder anderen Corona. (vaak met 3 van de 5 aanwezig)
 - Github aanvaardt geen grote bestanden -> Laatste dag veel tijd verloren.
 
-## gebruikte software en programeertalen
+## Gebruikte software en programeertalen
 - Adobe premiere/After effects/Illustator
 - Visual studio code (html, css en javascript)
+
+## Gebruikte bronnen 
+- [https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html) Carousel
+- [https://www.codinglabweb.com/2021/01/responsive-registration-form-in-html-css.html) Inschrijvings formulier
+- [https://www.youtube.com/watch?v=z3Y5gJWmVVU) Video galerij
+- [https://www.youtube.com/watch?v=Db5jCkrVgAw) - contact pagina
+- [https://www.youtube.com/watch?v=kVc_XfZY0vI&t=76s) -  Jquerry/inspiratie voor foto galerij
+
+

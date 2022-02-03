@@ -29,28 +29,13 @@ body {
 }
 
 /*Navigation*/
-.header img {
-    width: 300px;
-    position: relative;
+#myLinks a {
+    transition: color 0.8s;
 }
 
-.header {
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    background-color: white;
-}
-
-.header a {
-    font-family: 'Public Sans', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-weight: bold;
+#myLinks a:hover {
+    color: orange;
+    transition-timing-function: ease-in-out;
 }
 
 /*Workshop gallery section*/
@@ -107,6 +92,7 @@ body {
 .legende {
     background-color: white;
     color: #ffd900e5;
+    font-size: 16px;
     width: 13%;
     height: 18%;
     padding-left: 10px;
@@ -120,15 +106,30 @@ body {
 
 .L1 {
     color: #1c52a6;
+    font-size: 16px;
 }
 
 .L2 {
     color: #8cc63f;
+    font-size: 16px;
 }
 
 .L3 {
     color: #ff931e;
+    font-size: 16px;
 }
+
+.L5 {
+    color: black;
+    font-size: 18px;
+
+}
+
+.L6 {
+    color: #ffd900e5;
+    font-size: 16px;
+}
+
 
 
 /*Owl-carousel*/
@@ -173,12 +174,12 @@ body {
 }
 
 .card h1 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px;
 }
 
 .card p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -187,15 +188,15 @@ body {
 }
 
 .card-1 h1 {
-    color: #ffda00;
+    color: #ffd900e5;
 }
 
 .card-1 a {
     text-decoration: none;
     color: white;
-    border: 2px solid #ffda00;
+    border: 2px solid #ffd900e5;
     padding: 5px 30px;
-    background-color: #ffda00;
+    background-color: #ffd900e5;
     font-weight: bold;
     font-size: 18px;
 }
@@ -515,7 +516,7 @@ span.lid {
 
 .contact a {
     text-decoration: none;
-
+    color: black;
 }
 
 .footer-info h2 {
@@ -769,6 +770,11 @@ span.lid {
         width: 56%;
     }
 
+    ul.links {
+        color: orange;
+    }
+
+
     .text h1 {
         text-align: center;
         margin-left: -13%;
@@ -796,6 +802,10 @@ span.lid {
 
     .content p {
         font-size: 16px;
+    }
+
+    .kalender h3 {
+        font-size: 18px;
     }
 
 
@@ -970,4 +980,21 @@ span.lid {
         padding-top: 10%;
     }
 
+    .kalender h1 {
+        font-size: 30px;
+    }
+
+    .kalender h3 {
+        font-size: 18px;
+
+    }
+
+    .kalender p {
+        font-size: 16px;
+
+    }
+
+    .kalender a {
+        font-size: 16px;
+    }
 }

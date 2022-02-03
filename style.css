@@ -28,6 +28,14 @@ body {
     background: #1c52a6;
 }
 
+#myLinks a {
+    transition: color 0.8s;
+}
+
+#myLinks a:hover {
+    color: orange;
+    transition-timing-function: ease-in-out;
+}
 
 /*First introduction section*/
 .main {
@@ -409,30 +417,6 @@ span.lid {
 }
 
 
-/*Animation*/
-.left-header a {
-    transition: color .5s;
-}
-
-
-.left-header a:hover {
-    color: #1c52a6;
-    transition-timing-function: ease;
-}
-
-
-.right-header a {
-    transition: color .5s;
-}
-
-
-.right-header a:hover {
-    color: orange;
-    transition-timing-function: ease;
-}
-
-
-
 @media (max-width:1024px) {
 
     .wrapper-think .think p,
@@ -588,18 +572,9 @@ span.lid {
         color: white;
     }
 
-    .header img {
-        width: 180px;
+    ul.links {
+        color: orange;
     }
-
-    .header a {
-        margin-left: 70px;
-    }
-
-    .left-header {
-        margin-left: 10px;
-    }
-
 
     .main {
         flex-direction: column-reverse;
