@@ -134,48 +134,71 @@ body {
 
 /*Owl-carousel*/
 .carousel {
-    background-color: white;
     width: 200px;
     margin: 20px;
     border-radius: 20px;
 }
 
 .carousel {
-    width: 70%;
+    width: 72%;
     height: 500px;
     overflow: hidden;
     overflow-x: scroll;
     margin: 20px;
-    display: inline-flexbox;
+    display: flex;
     margin-left: 15%;
 }
 
-.cover {
-    padding-left: 10px;
+@media (min-width:1440px) {
+    .carousel {
+        width: 72%;
+        height: 500px;
+        margin-left: 15%;
+    }
 }
 
+@media (max-width:1024px) {
+    .carousel {
+        width: 66%;
+        height: 500px;
+        margin-left: 15%;
+    }
+
+    .card {
+        width: 100px;
+    }
+
+    .card img {
+        width: 20%;
+    }
+}
+
+.cover {
+    padding-left: 0px;
+    display: flex;
+}
 
 .card {
     background: #e6e6e6;
     height: 100%;
-    width: 200px;
+    width: 300px;
     text-align: center;
     color: black;
-    margin: 20px 0px;
+    margin: 20px 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
     object-fit: contain;
-    height: 1%;
-    width: 1%;
-    padding-top: 0px;
+    width: 80%;
+    padding-top: 20px;
 }
 
 .card h1 {
     font-size: 20px;
     margin: 10px;
+    margin-left: auto;
 }
 
 .card p {
@@ -185,6 +208,10 @@ body {
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: left;
+}
+
+.card-1 {
+    margin-left: 0px;
 }
 
 .card-1 h1 {
@@ -618,13 +645,6 @@ span.lid {
         font-size: 50px;
     }
 
-    .owl-item {
-        width: 30px;
-    }
-
-    .cover {
-        width: 100%;
-    }
 
     .contact,
     .social,
