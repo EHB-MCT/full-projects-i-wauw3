@@ -15,4 +15,5 @@ Mohamed
 -video zone
 
 ## Struikelblokken
--Vaak afwezigheden door onder anderen Corona
+- Vaak afwezigheden door onder anderen Corona
+- Github aanvaardt geen grote bestanden -> Veel tijd mee verloren.
