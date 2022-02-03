@@ -322,9 +322,6 @@
 
     <!--SCRIPTS-->
     <script>
-
-    </script>
-    <script>
         (function () {
             window['__CF$cv$params'] = {
                 r: '6d7cfdff9d8dd490',
@@ -333,44 +330,46 @@
             }
         })();
     </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.list').click(function () {
+                const value = $(this).attr('data-filter');
+                if (value == 'Alles') {
+                    $('.itembox').show('1000');
+                } else {
+                    $('.itembox').not('.' + value).hide('1000');
+                    $('.itembox').filter('.' + value).show('1000');
+                }
+            })
+            $('.list').click(function () {
+                $(this).addClass('active').siblings().removeClass('active')
+            })
+        })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
 </body>
 
-<script>
-    $(document).ready(function () {
 
-        $('.list').click(function () {
-            const value = $(this).attr('data-filter');
-            if (value == 'Alles') {
-                $('.itembox').show('1000');
-            } else {
-                $('.itembox').not('.' + value).hide('1000');
-                $('.itembox').filter('.' + value).show('1000');
-            }
-        })
-        $('.list').click(function () {
-            $(this).addClass('active').siblings().removeClass('active')
-        })
-    })
-</script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script>
-    AOS.init({
-        offset: 400,
-        duration: 1000
-    });
-</script>
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-</script>
 
 </html>
