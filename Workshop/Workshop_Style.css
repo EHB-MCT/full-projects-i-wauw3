@@ -303,6 +303,9 @@ body {
 
     .card {
         width: 200px;
+        height: 90%;
+        padding-bottom: 20px;
+
     }
 
     .card img {
@@ -311,6 +314,7 @@ body {
 
     .legende {
         padding-left: 0px;
+        margin-top: -28%;
     }
 
     .card p {
