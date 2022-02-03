@@ -144,6 +144,26 @@ body {
     margin-top: 60px;
 }
 
+@media (min-width:1440px) {
+    .cover .carousel {
+        max-width: 1200px;
+    }
+
+    .card {
+        width: 350px;
+    }
+}
+
+@media (min-width:1024) {
+    .cover .carousel {
+        max-width: 1200px;
+    }
+
+    .card {
+        width: 350px;
+    }
+}
+
 .carousel .card {
     background: #e6e6e6;
     height: 500px;
@@ -156,7 +176,7 @@ body {
 
 .card img {
     object-fit: scale-down;
-    height: 30%;
+    height: 40%;
     padding-top: 10px;
 }
 
@@ -503,7 +523,7 @@ span.lid {
 
 .contact a {
     text-decoration: none;
-
+    color: black;
 }
 
 .footer-info h2 {
@@ -786,6 +806,10 @@ span.lid {
         font-size: 16px;
     }
 
+    .kalender h3 {
+        font-size: 18px;
+    }
+
 
 
 
@@ -958,4 +982,21 @@ span.lid {
         padding-top: 10%;
     }
 
+    .kalender h1 {
+        font-size: 30px;
+    }
+
+    .kalender h3 {
+        font-size: 18px;
+
+    }
+
+    .kalender p {
+        font-size: 16px;
+
+    }
+
+    .kalender a {
+        font-size: 16px;
+    }
 }
