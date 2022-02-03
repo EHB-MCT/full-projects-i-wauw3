@@ -149,30 +149,6 @@ body {
     margin-left: 15%;
 }
 
-@media (min-width:1440px) {
-    .carousel {
-        width: 72%;
-        height: 500px;
-        margin-left: 15%;
-    }
-}
-
-@media (max-width:1024px) {
-    .carousel {
-        width: 66%;
-        height: 500px;
-        margin-left: 15%;
-    }
-
-    .card {
-        width: 100px;
-    }
-
-    .card img {
-        width: 20%;
-    }
-}
-
 .cover {
     padding-left: 0px;
     display: flex;
@@ -308,6 +284,133 @@ body {
 
 .schaal {
     padding-top: 2%;
+}
+
+@media (min-width:1440px) {
+    .carousel {
+        width: 72%;
+        height: 500px;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:1024px) {
+    .carousel {
+        width: 70%;
+        height: 500px;
+        margin-left: 17%;
+    }
+
+    .card {
+        width: 200px;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width:940px) {
+    .carousel {
+        width: 76%;
+        height: 500px;
+        margin-left: 12%;
+    }
+
+    .card {
+        width: 200px;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel {
+        width: 60%;
+        height: 380px;
+        margin-left: 23%;
+        display: block;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .cover {
+        display: block;
+    }
+
+    .card {
+        width: 400px;
+        margin: 0px;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width:426px) {
+    .carousel {
+        width: 60%;
+        height: 380px;
+        margin-left: 23%;
+    }
+
+    .cover {
+        display: block;
+    }
+
+    .card {
+        width: 220px;
+        margin: 0px;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width:426px) {
+    .carousel {
+        width: 60%;
+        height: 380px;
+        margin-left: 23%;
+    }
+
+    .cover {
+        display: block;
+    }
+
+    .card {
+        width: 220px;
+        margin: 0px;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width:320px) {
+    .carousel {
+        width: 60%;
+        height: 380px;
+        margin-left: 23%;
+    }
+
+    .cover {
+        display: block;
+    }
+
+    .card {
+        width: 150px;
+        margin: 0px;
+    }
+
+    .card img {
+        width: 80%;
+    }
 }
 
 /* Gallery section*/
@@ -723,7 +826,7 @@ span.lid {
         padding-top: 3%;
         width: 50%;
 
-        margin-bottom: -40%;
+        margin-bottom: -38%;
     }
 
     .legende {
@@ -863,6 +966,10 @@ span.lid {
         height: 100px;
     }
 
+    .text {
+        margin-left: 25%;
+    }
+
 }
 
 
@@ -953,7 +1060,7 @@ span.lid {
 
     .text h1 {
         padding-top: 7%;
-        margin-left: -180%;
+        margin-left: 1%;
         font-size: 35px;
 
     }
@@ -963,7 +1070,7 @@ span.lid {
     }
 
     .text p {
-        margin-left: -160%;
+        margin-left: -150%;
         text-align: center;
         padding-left: 20%;
         padding-right: 50%;
