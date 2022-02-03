@@ -8,6 +8,15 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+#myLinks a {
+    transition: color 0.8s;
+}
+
+#myLinks a:hover {
+    color: orange;
+    transition-timing-function: ease-in-out;
+}
+
 /* ScrollBar */
 ::-webkit-scrollbar {
     width: 15px;
