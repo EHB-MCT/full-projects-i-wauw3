@@ -358,7 +358,8 @@ body {
 
     .card {
         width: 400px;
-        margin: 0px;
+        margin: 25px 0px;
+
     }
 
     .card img {
@@ -412,6 +413,7 @@ body {
     .card {
         width: 220px;
         margin: 0px;
+        margin-bottom: 25px;
     }
 
     .card img {
@@ -433,6 +435,7 @@ body {
     .card {
         width: 150px;
         margin: 0px;
+        margin-bottom: 25px;
     }
 
     .card img {
