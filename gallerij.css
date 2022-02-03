@@ -27,48 +27,6 @@ body {
     background: #1c52a6;
 }
 
-/*Navigation*/
-.header img {
-    width: 300px;
-    position: relative;
-}
-
-.header {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: white;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-
-}
-
-.header a {
-    font-family: 'Public Sans', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-weight: bold;
-}
-
-.left-header a:hover {
-    color: #1c52a6;
-    transition-timing-function: ease;
-}
-
-
-.right-header a {
-    transition: color .5s;
-}
-
-
-.right-header a:hover {
-    color: orange;
-    transition-timing-function: ease;
-}
-
 /*Wauw-Tube*/
 .text {
     text-align: left;

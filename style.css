@@ -29,32 +29,6 @@ body {
 }
 
 
-
-/*Navigation*/
-.header img {
-    width: 300px;
-    position: relative;
-}
-
-.header {
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    background-color: white;
-}
-
-.header a {
-    font-family: 'Public Sans', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-weight: bold;
-}
-
 /*First introduction section*/
 .main {
     margin-left: 20px;
@@ -255,7 +229,6 @@ span.tief {
 
 
 /*Subscribe section*/
-
 
 .button {
     padding-bottom: 100px;
