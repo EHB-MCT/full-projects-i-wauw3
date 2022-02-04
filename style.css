@@ -218,6 +218,7 @@ span.tief {
     padding: 4px 20px;
 }
 
+
 .wrapper-think div {
     background-color: #e6e6e6;
     text-decoration: none;
@@ -236,6 +237,11 @@ span.tief {
     width: 25%;
 }
 
+.work img,
+.play img,
+.think img {
+    width: 70%;
+}
 
 /*Subscribe section*/
 
